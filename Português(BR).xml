@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team/zero" version="1.0.0" long_version="10000" update_check="https://nieblin.com/ips/br/changelog">
+<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team/zero" version="1.0.1" long_version="10010" update_check="https://nieblin.com/ips/br/changelog">
  <app key="core" version="">
   <word key="embed_posted_item" js="0">%s postou um item em %s </word>
   <word key="menu_item_2" js="0">Atividade</word>
@@ -21,6 +21,7 @@
   <word key="activity" js="0">Atividade</word>
   <word key="all_activity_extra_stream" js="0">Mostrar em Todas as Atividades</word>
   <word key="activity_member_followed" js="0">%s começou a seguir %s </word>
+  <word key="stream_sorting" js="0">Ordenar</word>
   <word key="stream_results_as_condensed" js="0">Compacto</word>
   <word key="stream_results_as_expanded" js="0">Expandido</word>
   <word key="stream_condensed" js="0">Exibir os resultados em um formato compacto de uma linha por entrada</word>
@@ -85,6 +86,7 @@
   <word key="sort_rating_average" js="0">Classificação mais alta</word>
   <word key="widget_feed_tags_desc" js="0">Ao adicionar várias tags aqui, se alguma das tags corresponder, o item de conteúdo será mostrado.</word>
   <word key="search_everything" js="0">Todo o Conteúdo</word>
+  <word key="search_index_timeframe_desc" js="0">Limitar os resultados pode tornar as pesquisas mais rápidas, especialmente para grandes comunidades; no entanto, o conteúdo anterior não aparecerá nos resultados da pesquisa, streams ou painel de controle do moderador. O conteúdo mais recente é automaticamente ponderado mais alto na classificação.</word>
   <word key="search_elastic_server_no_version" js="0">O servidor não retornou a resposta esperada. Verifique se Elasticsearch está instalado corretamente e acessível a partir de seu servidor web. Se você visitar o URL fornecido em seu navegador, verá os detalhes sobre a versão instalada.</word>
   <word key="search_elastic_server_error" js="0">O servidor não retornou a resposta esperada. Verifique se Elasticsearch está instalado corretamente e acessível a partir de seu servidor web. Se você visitar o URL fornecido em seu navegador, verá os detalhes sobre a versão instalada. Error: %s </word>
   <word key="last_week" js="0">Semana Anterior</word>
@@ -103,6 +105,7 @@
   <word key="mfa_authy_reauth" js="0">Alterar Número de Telefone</word>
   <word key="mfa_phone_title" js="0">Verificação de Telefone</word>
   <word key="mfa_sms_or_phone_desc_user" js="0">Quando precisarmos que você verifique sua identidade, enviaremos uma mensagem de texto ou ligaremos para você com um código para você inserir.</word>
+  <word key="task__clubrebuild" js="0">Recalcula os dados nos clubes para classificação.</word>
   <word key="club_whats_new" js="0">Novidades neste clube</word>
   <word key="pp_desc_captcha" js="0">Este site usa um CAPTCHA para garantir que os humanos estejam executando certas ações. O provedor CAPTCHA pode definir um cookie de sessão e obter informações sobre seu navegador de Internet e dispositivo que acessa este site.</word>
   <word key="new_version_email_whatsnew" js="0">Aqui estão as novidades nesta versão:</word>
@@ -223,6 +226,8 @@
   <word key="edit_customer_info" js="0">Editar informações do cliente</word>
   <word key="purchase_customer_info" js="0">Informação do Cliente</word>
   <word key="r_stream" js="0">Mostrar</word>
+  <word key="support_honor_severity_sort" js="0">Honrar a ordem de severidade na classificação</word>
+  <word key="support_no_honor_severity_sort" js="0">Ignorar severidades na classificação</word>
   <word key="your_message" js="0">Sua Mensagem</word>
   <word key="your_reply_is_pending" js="0">Uma resposta foi adicionada antes da sua. Ainda quer enviar sua mensagem?</word>
   <word key="support_bounced" js="0">A solicitação de suporte que você respondeu foi marcada como resolvida e, portanto, sua mensagem não pôde ser processada.</word>
