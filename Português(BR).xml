@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="nieblin.com/team/zero" version="1.0.0" long_version="10000" update_check="">
+<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team/zero" version="1.0.0" long_version="10000" update_check="https://nieblin.com/ips/br/changelog">
  <app key="core" version="">
   <word key="embed_posted_item" js="0">%s postou um item em %s </word>
   <word key="menu_item_2" js="0">Atividade</word>
