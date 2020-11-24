@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="nieblin.com/team/zero" version="1.0.0" long_version="10000" update_check="">
+ <app key="core" version="">
+  <word key="embed_posted_item" js="0">%s postou um item em %s </word>
+  <word key="menu_item_2" js="0">Atividade</word>
+  <word key="default_menu_item_2" js="0">Atividade</word>
+  <word key="stream_save_changes" js="0">Salvar essas alterações? </word>
+  <word key="stream_save_dismiss" js="0">Não Salvar </word>
+  <word key="stream_button_save_as_new" js="0">Salvar como novo fluxo </word>
+  <word key="stream_include_comments" js="0">Mostrar</word>
+  <word key="stream_include_comments_0" js="0">Apenas itens de conteúdo</word>
+  <word key="stream_ownership" js="0">Propriedade</word>
+  <word key="stream_ownership_all" js="0">Tudo</word>
+  <word key="stream_ownership_started" js="0">Conteúdo que comecei </word>
+  <word key="stream_ownership_postedin" js="0">Conteúdo que postei</word>
+  <word key="stream_ownership_custom" js="0">Conteúdo de membros específicos </word>
+  <word key="stream_read_all" js="0">Tudo</word>
+  <word key="stream_read_unread_desc" js="0">Streams de conteúdo não lido só podem ser visualizados com 'Itens Apenas'</word>
+  <word key="stream_follow_all" js="0">Tudo</word>
+  <word key="stream_title_1" js="0">Conteúdo Não Lido</word>
+  <word key="activity" js="0">Atividade</word>
+  <word key="all_activity_extra_stream" js="0">Mostrar em Todas as Atividades</word>
+  <word key="activity_member_followed" js="0">%s começou a seguir %s </word>
+  <word key="stream_results_as_condensed" js="0">Compacto</word>
+  <word key="stream_results_as_expanded" js="0">Expandido</word>
+  <word key="stream_condensed" js="0">Exibir os resultados em um formato compacto de uma linha por entrada</word>
+  <word key="stream_expanded" js="0">Exibir resultados com mais detalhes, incluindo uma visualização do conteúdo</word>
+  <word key="stream_default_view_expanded" js="0">Expandido</word>
+  <word key="stream_default_view_condensed" js="0">Compacto</word>
+  <word key="editor_insert_from_url" js="0">Inserir imagem de URL</word>
+  <word key="editor_allowed_formmsg" js="0">Quando um usuário envia uma postagem, o conteúdo que parece malicioso é removido. Por exemplo, um usuário mal-intencionado pode tentar enviar uma postagem com conteúdo que se pareça com um formulário de login para enganar outros usuários ou conteúdo com a intenção de quebrar o layout de sua comunidade. Essas configurações permitem que você afrouxe as restrições usadas, se necessário.</word>
+  <word key="editor_paste_behaviour_rich_desc" js="0">Quando o rich text é colado, uma barra aparecerá na parte inferior do editor com um botão para converter o conteúdo colado em texto simples. Os usuários também podem colar como texto simples usando Ctrl + Shift + V no Google Chrome no Windows ou ⌥⇧⌘V em qualquer navegador em um Mac.</word>
+  <word key="home" js="0">Início</word>
+  <word key="contact" js="0">Contate-Nos</word>
+  <word key="contact_admin" js="0">Contate-Nos</word>
+  <word key="contact_text" js="0">Sua Mensagem</word>
+  <word key="contact_sent_blurb" js="0">Obrigado, sua mensagem foi enviada para os administradores.</word>
+  <word key="coppa_form_phone" js="0">Número de Telefone: </word>
+  <word key="language" js="0">Idioma</word>
+  <word key="whats_new_link" js="0">Novidades</word>
+  <word key="date_started" js="0">Publicado %s </word>
+  <word key="date_replied" js="0">Publicado %s </word>
+  <word key="next_unread_not_found" js="0">Não há itens de conteúdo não lidos.</word>
+  <word key="node_mass_content_blurb_2" js="0">Isso é tratado em segundo plano e não acontece imediatamente, no entanto, depois que o processo é iniciado. Você poderá ver o progresso no painel AdminCP.</word>
+  <word key="admincp_home" js="0">Início</word>
+  <word key="acplog__upgrade_started" js="0">Atualização da comunidade iniciada</word>
+  <word key="oauth_wordpress_map_name" js="0">Primeiro Nome </word>
+  <word key="member_content_items" js="0">Itens de Conteúdo</word>
+  <word key="member_reset_lang" js="0">Idioma</word>
+  <word key="device_other_members_info" js="0">Esta tabela mostra outros membros que também fizeram login com este dispositivo. Isso pode indicar que todas as contas pertencem à mesma pessoa, mas também pode significar que pessoas diferentes compartilham um computador ou que é um computador público. Observe que os usuários podem evitar essa detecção limpando os cookies em seus navegadores da web ou usando os recursos de privacidade de seus navegadores; portanto, esses resultados podem não ser completos.</word>
+  <word key="device_table_user_agent" js="0">Navegador</word>
+  <word key="club_ownership" js="0">Propriedade do clube</word>
+  <word key="g_sig_max_lines_desc" js="0">Essa configuração afeta o número de novas linhas que o usuário pode criar em uma assinatura. Uma longa linha de texto será quebrada automaticamente (o ponto em que o texto é quebrado depende da largura do navegador do usuário que está visualizando a assinatura) e isso não é afetado por esta configuração.</word>
+  <word key="bulkmail_notstarted" js="0">Não foi iniciado</word>
+  <word key="email_embedded_your_content_guest" js="0">%s (Convidado) publicou um link para o seu conteúdo em %s. </word>
+  <word key="email_embedded_your_content_plain" js="0"> %s publicou um link para o seu conteúdo em %s. </word>
+  <word key="pf_type_Tel" js="0">Número de Telefone</word>
+  <word key="module__core_languages" js="0">Idiomas</word>
+  <word key="menu__core_activitystats" js="0">Atividade</word>
+  <word key="r__languages" js="0">Idiomas</word>
+  <word key="license_benefit_downloads" js="0">Transferências</word>
+  <word key="core_theme_launch_vse_tooltip" js="0">Inicia o editor em uma nova janela do navegador</word>
+  <word key="manifest_browser" js="0">Navegador</word>
+  <word key="core_theme_set_favico_logo_desc" js="0">Esta é uma pequena imagem que aparece na barra de endereço do navegador.</word>
+  <word key="attach_hits" js="0">Transferências</word>
+  <word key="ad_image_medium_desc" js="0">Esta imagem será exibida para usuários que visitam a partir de dispositivos como tablets, que são maiores do que telefones, mas menores do que a maioria dos navegadores, se fornecidos</word>
+  <word key="change_password_admin_4" js="0">Selecione 'Alterar Meus Dados'</word>
+  <word key="change_email_admin_4" js="0">Selecione 'Alterar Meus Dados'</word>
+  <word key="menu__core_languages_languages" js="0">Idiomas</word>
+  <word key="see_whats_new" js="0">Veja as novidades </word>
+  <word key="whats_new_title" js="0">Novidades da versão %s </word>
+  <word key="change_details" js="0">Alterar Meus Dados</word>
+  <word key="my_details" js="0">Meus Dados</word>
+  <word key="messenger_filter_mine" js="0">Conversas que eu comecei</word>
+  <word key="messenger_date_started" js="0">Conversa iniciada: %s </word>
+  <word key="date_posted" js="0">Publicado %s </word>
+  <word key="report_no_message" js="0">O usuário não enviou uma mensagem com o relatório.</word>
+  <word key="users_activity_feed" js="0">Atividade</word>
+  <word key="all_activity" js="0">Todas as Atividades</word>
+  <word key="all_content_by_user" js="0">Tudo postado por %s </word>
+  <word key="content_by_user" js="0">%s postado por %s </word>
+  <word key="block_topContributors_desc" js="0">Mostra quais membros receberam mais reputação ou curtidas na última semana, mês, ano ou sempre.</word>
+  <word key="everything" js="0">Tudo</word>
+  <word key="sort_rating" js="0">Classificação mais alta</word>
+  <word key="sort_rating_average" js="0">Classificação mais alta</word>
+  <word key="widget_feed_tags_desc" js="0">Ao adicionar várias tags aqui, se alguma das tags corresponder, o item de conteúdo será mostrado.</word>
+  <word key="search_everything" js="0">Todo o Conteúdo</word>
+  <word key="search_elastic_server_no_version" js="0">O servidor não retornou a resposta esperada. Verifique se Elasticsearch está instalado corretamente e acessível a partir de seu servidor web. Se você visitar o URL fornecido em seu navegador, verá os detalhes sobre a versão instalada.</word>
+  <word key="search_elastic_server_error" js="0">O servidor não retornou a resposta esperada. Verifique se Elasticsearch está instalado corretamente e acessível a partir de seu servidor web. Se você visitar o URL fornecido em seu navegador, verá os detalhes sobre a versão instalada. Error: %s </word>
+  <word key="last_week" js="0">Semana Anterior</word>
+  <word key="get_support_error" js="0">Não foi possível enviar sua mensagem para o suporte técnico. Tente novamente na área do cliente.</word>
+  <word key="allow_remote_images_desc" js="0">Você pode permitir que os usuários criem um link para imagens hospedadas remotamente, que serão exibidas em linha ao enviar conteúdo. Observe, entretanto, que o conteúdo hospedado remotamente pode ser removido a qualquer momento, pode produzir avisos de segurança do navegador em certos casos e pode permitir que esses sites remotos rastreiem seus usuários.</word>
+  <word key="allow_only_https_remote_images_desc" js="0">Habilitar esta configuração impedirá que os usuários incorporem imagens usando http, em vez de exigir https. Você pode desejar habilitar esta configuração para evitar avisos de segurança do navegador se o seu site for seguro ou se você planeja adicionar um certificado SSL no futuro.</word>
+  <word key="client_type_public_desc" js="0">Um aplicativo baseado em navegador escrito em JavaScript ou um aplicativo móvel/nativo que será instalado em um dispositivo ao qual um usuário final tenha acesso. Nenhum segredo do cliente será emitido.</word>
+  <word key="menu__core_settings_contactus" js="0">Contate-Nos</word>
+  <word key="r__contactus" js="0">Contate-Nos</word>
+  <word key="r__contactus_manage" js="0">Pode gerenciar as configurações de Contate-Nos</word>
+  <word key="acplogs__contactus_settings" js="0">Configurações atualizadas de Contate-Nos</word>
+  <word key="authy_placeholder" js="0">Número de Telefone </word>
+  <word key="authy_register" js="0">Verificar Número de Telefone </word>
+  <word key="authy_submit_authy" js="0">Verificar Número de Telefone </word>
+  <word key="authy_setup_desc" js="0">Ao configurar o Authy, o usuário precisará escolher um desses métodos habilitados para verificar seu número de telefone. </word>
+  <word key="mfa_authy_reauth" js="0">Alterar Número de Telefone</word>
+  <word key="mfa_phone_title" js="0">Verificação de Telefone</word>
+  <word key="mfa_sms_or_phone_desc_user" js="0">Quando precisarmos que você verifique sua identidade, enviaremos uma mensagem de texto ou ligaremos para você com um código para você inserir.</word>
+  <word key="club_whats_new" js="0">Novidades neste clube</word>
+  <word key="pp_desc_captcha" js="0">Este site usa um CAPTCHA para garantir que os humanos estejam executando certas ações. O provedor CAPTCHA pode definir um cookie de sessão e obter informações sobre seu navegador de Internet e dispositivo que acessa este site.</word>
+  <word key="new_version_email_whatsnew" js="0">Aqui estão as novidades nesta versão:</word>
+  <word key="app_home" js="0">Início</word>
+  <word key="app_activity_posted_item" js="0">{{user}} publicado {{article}} </word>
+  <word key="app_tab_home" js="0">Início</word>
+  <word key="app_upload_in_progress_desc" js="0">Aguarde até que as imagens carregadas tenham concluído o processamento e envie novamente.</word>
+  <word key="app_last_week" js="0">Semana Anterior</word>
+  <word key="app_all_activity" js="0">Todas as Atividades</word>
+  <word key="app_follow_immediate" js="0">Uma notificação quando um novo conteúdo é publicado </word>
+  <word key="app_choose_reason" js="0">O que está errado?</word>
+  <word key="mobile_app_splash_get_started" js="0">Iniciar</word>
+  <word key="mobile_app_listing_languages" js="0">Idioma(s) </word>
+  <word key="marketplace_error" js="0">Ocorreu um erro ao instalar o recurso, envie um tíquete de suporte para obter mais assistência.</word>
+  <word key="marketplace_newest_files" js="0">Novidades</word>
+  <word key="marketplace_file_downloads" js="0">Transferências</word>
+  <word key="whatsNew" js="1">Novidades da Comunidade Invision</word>
+  <word key="notificationsDisabled" js="1">Notificações do navegador desativadas</word>
+  <word key="notificationsDisabledBlurb" js="1">Ao habilitar as notificações na área de trabalho, poderemos avisar quando houver novo conteúdo, mesmo se você não estiver ativo nesta janela. Verifique a documentação de ajuda do navegador para descobrir como habilitar notificações para este site.</word>
+  <word key="notificationsNotSure" js="1">Notificações do navegador não habilitadas</word>
+  <word key="notificationsAllow" js="1">Ativar notificações do navegador</word>
+  <word key="notificationsAllowPrompt" js="1">Em breve, seu navegador solicitará que você aceite nossas notificações. Atualize esta página após aceitá-los.</word>
+  <word key="streamFilter_stream_include_comments_0" js="1">Apenas itens</word>
+  <word key="streamFilter_stream_read_all" js="1"><![CDATA[<em>Tudo</em> ]]></word>
+  <word key="streamFilter_stream_follow_all" js="1"><![CDATA[<em>Tudo</em> ]]></word>
+  <word key="streamFilter_stream_tags_noTags" js="1"><![CDATA[<em>Opções</em> ]]></word>
+  <word key="streamFilter_stream_ownership_all" js="1"><![CDATA[<em>Tudo</em> ]]></word>
+  <word key="streamFilter_stream_ownership_started" js="1">eu comecei </word>
+  <word key="streamFilter_stream_ownership_postedin" js="1">Eu postei em </word>
+  <word key="emoji-category-activities" js="1">Atividade</word>
+ </app>
+ <app key="forums" version="">
+  <word key="forum_type_qa_desc" js="0">Os usuários podem fazer perguntas para as quais outros usuários podem postar respostas. As respostas podem ser avaliadas por outros usuários e as respostas com maior pontuação são mostradas primeiro.</word>
+  <word key="archiving_blurb" js="0">Se você tiver um site muito grande, pode ser benéfico reduzir o tamanho das postagens de armazenamento da tabela do banco de dados. Arquivar tópicos é uma alternativa à exclusão, o que permite que ainda existam e sejam vistos como normais, mas os move para uma tabela de banco de dados separada. Os tópicos arquivados não podem ser postados ou editados e não serão exibidos nos resultados da pesquisa. Você pode desarquivar tópicos após eles terem sido arquivados, se mudar de ideia. </word>
+  <word key="archive_topic_starter" js="0">Começado por</word>
+  <word key="questions_i_posted_in" js="0">Perguntas para as quais postei uma resposta</word>
+  <word key="forums_topic_list_snippet" js="0">Visualização Expandida: mostra tópicos com uma prévia da postagem</word>
+  <word key="forums_topic_list_list" js="0">Visualização Compacta: Mostrar tópicos como uma lista</word>
+  <word key="block_latestTopics_desc" js="0">Mostra os últimos tópicos publicado </word>
+ </app>
+ <app key="downloads" version="">
+  <word key="__app_downloads" js="0">Transferências</word>
+  <word key="frontnavigation_downloads" js="0">Transferências</word>
+  <word key="menu__downloads_downloads" js="0">Transferências</word>
+  <word key="module__downloads_downloads" js="0">Transferências</word>
+  <word key="menu__downloads_stats" js="0">Transferências</word>
+  <word key="editor__downloads_Downloads" js="0">Transferências de Arquivos</word>
+  <word key="member_restrictions__downloads_Downloads" js="0">Transferências</word>
+  <word key="content_stats__downloads_Downloads" js="0">Transferências</word>
+  <word key="clog_recount_desc" js="0">Isso redefinirá o número de downloads de cada arquivo nesta categoria para o número de registros atualmente no log. Se você atualizou as configurações de log, precisará salvá-las antes de executar esta ferramenta. Esta ação é irreversível.</word>
+  <word key="view_all_files" js="0">Ver todos os Arquivos</word>
+  <word key="modperms__core_Content_downloads_File" js="0">Transferências</word>
+  <word key="modperms__downloads_Files" js="0">Transferências</word>
+  <word key="group__downloads_Downloads" js="0">Transferências</word>
+  <word key="submit_a_file" js="0">Envie um arquivo</word>
+  <word key="file_changelog" js="0">Novidades</word>
+  <word key="downloads" js="0">Transferências</word>
+  <word key="whats_new_in_version" js="0"><![CDATA[Novidades da versão <span data-role='versionTitle'>%s</span> ]]></word>
+  <word key="browse_whats_new" js="0">Novidades</word>
+  <word key="browse_highest_rated" js="0">Classificação mais alta</word>
+  <word key="browse_most_downloaded" js="0">Mais Baixados</word>
+  <word key="no_new_files" js="0">Não houve nenhum arquivo carregado ainda.</word>
+  <word key="no_rated_files" js="0">Nenhum arquivo foi classificado ainda.</word>
+  <word key="no_downloaded_files" js="0">Nenhum arquivo foi baixado ainda.</word>
+  <word key="downloads_file_info" js="0">Transferências</word>
+  <word key="sort_file_downloads" js="0">Mais Baixados</word>
+  <word key="most_downloaded_file" js="0">Arquivo mais Baixado</word>
+  <word key="member__downloads_Downloads" js="0">Transferências</word>
+  <word key="idm_block_submissions_desc" js="0">Cada categoria tem permissão para enviar arquivos dentro dela. Se for desativado, o usuário não poderá enviar nenhum arquivo. Se ativado, as configurações por categoria serão respeitadas.</word>
+  <word key="dua" js="0">Navegador</word>
+  <word key="menu__downloads_stats_downloads" js="0">Transferências</word>
+  <word key="ipAddresses__downloads_DownloadLog" js="0">Transferências</word>
+  <word key="idm_show_newest" js="0">Mostrar a caixa &quot;Novidades&quot;</word>
+  <word key="idm_show_highest_rated" js="0">Mostrar a caixa &quot;Classificação mais alta&quot;</word>
+  <word key="idm_show_most_downloaded" js="0">Mostrar a caixa &quot;Mais Baixados&quot;</word>
+  <word key="downloadsScreenshotsWatermarkYes" js="1">Sim, Reconstruir</word>
+ </app>
+ <app key="gallery" version="">
+  <word key="g_download_original_desc" js="0">Os usuários ainda poderão baixar a imagem em tamanho grande por meio do navegador</word>
+  <word key="submit_all_images" js="0">Envie todas as imagens</word>
+  <word key="sort_album_rating_aggregate" js="0">Classificação mais alta</word>
+  <word key="album_everything_seen" js="0">Você viu tudo neste álbum</word>
+  <word key="album_create_owner" js="0">Propriedade</word>
+  <word key="unsaved_image_data" js="1">Você não salvou suas alterações para esta imagem. Tem certeza que deseja trocar de imagem? </word>
+ </app>
+ <app key="blog" version="">
+  <word key="no_entries_yet" js="0">Ainda não há entradas de blog</word>
+  <word key="blog_last_entry_date" js="0">Última entrada postada %s  </word>
+ </app>
+ <app key="convert" version=""/>
+ <app key="cms" version="">
+  <word key="content_database_form_lang" js="0">Idioma</word>
+  <word key="database_forum_comments_desc" js="0">Os comentários serão postados como respostas. Se você alterar a forma como os comentários são armazenados, os comentários existentes não serão mais exibidos. Os comentários não são copiados para os fóruns ou para o banco de dados de comentários internos se você alterar esta configuração. </word>
+ </app>
+ <app key="calendar" version="">
+  <word key="submit_event" js="0">Envie um evento</word>
+  <word key="x_created_event_in" js="0">%s postou um evento em %s </word>
+ </app>
+ <app key="nexus" version="">
+  <word key="default_menu_item_my_details" js="0">Meus Dados</word>
+  <word key="stripe_type_native" js="0">Recursos do navegador (Apple Pay / Google Pay)</word>
+  <word key="authorizenet_cim_desc" js="0">Usa o gerenciador de informações do cliente (CIM). Os detalhes do cartão são armazenados nos servidores da Authorize.Net, não nos seus.</word>
+  <word key="refund_invoice_pending_desc" js="0">Quaisquer compras ou benefícios que o cliente recebeu deste pagamento serão revogados. A fatura será definida como pendente para que eles possam enviar um pagamento alternativo. Selecione esta opção se houver um problema com o pagamento e você espera que o cliente pague de forma diferente.</word>
+  <word key="refund_invoice_expired_desc" js="0">Quaisquer compras ou benefícios que o cliente recebeu deste pagamento serão revogados. A fatura será definida como expirada para que o cliente não possa enviar um pagamento alternativo.</word>
+  <word key="refund_invoice_canceled_desc" js="0">Quaisquer compras ou benefícios que o cliente recebeu deste pagamento serão revogados. A fatura será definida para cancelada para que o cliente não possa enviar pagamento alternativo. Selecione esta opção se o cliente não quiser mais fazer a compra.</word>
+  <word key="transaction_customer" js="0">Informação do Cliente</word>
+  <word key="maxmind_customer_information" js="0">Informação do Cliente</word>
+  <word key="billing_agreement_error_public" js="0">A ação solicitada não pôde ser executada. Por favor, entre em contato conosco para mais </word>
+  <word key="card_information_invalid" js="0">As informações do cartão fornecidas não eram válidas ou o cartão expirou. Verifique as informações inseridas ou entre em contato conosco para obter mais assistência.</word>
+  <word key="card_requires_js" js="0">Habilite o JavaScript em seu navegador para continuar.</word>
+  <word key="cm_first_name" js="0">Primeiro Nome </word>
+  <word key="cm_last_name" js="0">Sobrenome</word>
+  <word key="f_blurb_maxmind_phone_match_n" js="0">O número de telefone não corresponde ao código postal do endereço de cobrança</word>
+  <word key="customerTable_cm_first_name" js="0">Primeiro Nome </word>
+  <word key="customerTable_cm_last_name" js="0">Sobrenome</word>
+  <word key="customerTable_cm_phone" js="0">Número de Telefone </word>
+  <word key="customer_information" js="0">Informação do Cliente</word>
+  <word key="edit_customer_info" js="0">Editar informações do cliente</word>
+  <word key="purchase_customer_info" js="0">Informação do Cliente</word>
+  <word key="r_stream" js="0">Mostrar</word>
+  <word key="your_message" js="0">Sua Mensagem</word>
+  <word key="your_reply_is_pending" js="0">Uma resposta foi adicionada antes da sua. Ainda quer enviar sua mensagem?</word>
+  <word key="support_bounced" js="0">A solicitação de suporte que você respondeu foi marcada como resolvida e, portanto, sua mensagem não pôde ser processada.</word>
+  <word key="customer_last_name" js="0">Sobrenome do Cliente</word>
+  <word key="menu__nexus_store" js="0">Loja </word>
+  <word key="p_support_desc" js="0">Isso vinculará o cliente ao formulário para enviar uma solicitação de suporte com a compra selecionada como a compra associada.</word>
+  <word key="gift_voucher_message" js="0">Sua Mensagem</word>
+  <word key="browse_store" js="0">Navegar na Loja</word>
+  <word key="client_area_my_details" js="0">Meus Dados</word>
+  <word key="purchases_title" js="0">Gerenciar suas Compras</word>
+  <word key="purchases_none" js="0">Você ainda não tem compras que possam ser gerenciadas</word>
+  <word key="customerinfo_title" js="0">Informação do Cliente</word>
+  <word key="easypost_phone" js="0">Seu Número de Telefone</word>
+  <word key="easypost_phone_desc" js="0">Algumas transportadoras exigem seu número de telefone, caso precisem entrar em contato com você sobre uma remessa.</word>
+  <word key="log_type_title_info" js="0">Mudanças nas informações do cliente</word>
+  <word key="nexus_sub_start" js="0">Começado</word>
+  <word key="nexus_cm_last_name" js="0">Sobrenome</word>
+  <word key="nexus_cm_first_name" js="0">Primeiro Nome </word>
+ </app>
+</language>
