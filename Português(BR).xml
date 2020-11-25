@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team" version="1.0.2-2" long_version="10022" update_check="https://nieblin.com/ips/br/changelog">
+<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team" version="1.0.2-3" long_version="10023" update_check="https://nieblin.com/ips/br/changelog">
  <app key="core" version="">
   <word key="embed_posted_item" js="0">%s postou um item em %s </word>
   <word key="add_menu_sep_short" js="0">Adicionar Separador </word>
@@ -94,6 +94,8 @@
   <word key="dev_widget_default_area_sidebar" js="0">Barra Lateral </word>
   <word key="database_table_new" js="0">Crie um Novo</word>
   <word key="database_column_default" js="0">Padrão </word>
+  <word key="app_author" js="0">Nome do Autor </word>
+  <word key="app_update_check" js="0">Atualizar URL de Verificação </word>
   <word key="acplog__application_set_default" js="0">'%s' foi definido como novo aplicativo padrão </word>
   <word key="ext__MemberExportPersonalInformation" js="0">Adicione dados adicionais ao arquivo XML de informações pessoais. </word>
   <word key="login_profile" js="0">Sugerir para conclusão do Perfil? </word>
@@ -126,7 +128,7 @@
   <word key="pfield_permissions" js="0">Permissões </word>
   <word key="pf_type_Tel" js="0">Número de Telefone</word>
   <word key="module__core_staffdirectory" js="0">Diretório Pessoal </word>
-  <word key="module__core_customization" js="0">Customização </word>
+  <word key="module__core_customization" js="0">Costumização </word>
   <word key="module__core_languages" js="0">Idiomas</word>
   <word key="menu__core_membersettings_profilecompletion" js="0">Conclusão do Perfil.  </word>
   <word key="menu__core_staff_moderators" js="0">Moderadores </word>
@@ -145,6 +147,7 @@
   <word key="menu__core_customization_themes" js="0">Temas </word>
   <word key="menu__core_customization_icons" js="0">Ícones e Logotipos </word>
   <word key="theme_set_tab__general" js="0">Geral </word>
+  <word key="theme_update_check" js="0">Atualizar URL de Verificação </word>
   <word key="core_theme_set_permissions" js="0">Disponível para </word>
   <word key="core_theme_launch_vse_tooltip" js="0">Inicia o editor em uma nova janela do navegador</word>
   <word key="theme_editor_add_toolbar" js="0">Adicionar barra de ferramentas </word>
@@ -158,6 +161,13 @@
   <word key="icons_mask_color_desc" js="0">Esta cor é usada quando o ícone da máscara do Safari está ativo ou pairando sobre ele. </word>
   <word key="configure_manifest_desc" js="0">O arquivo de manifesto define alguns detalhes sobre o seu site que os dispositivos móveis podem usar quando um usuário salva o seu site na tela inicial. Um arquivo de manifesto é disponibilizado automaticamente, se ainda não existir, no entanto, você pode substituir alguns dos padrões, se desejar. </word>
   <word key="manifest_browser" js="0">Navegador</word>
+  <word key="language_export_author_name" js="0">Nome do Autor </word>
+  <word key="language_export_author_url" js="0">URL do Autor </word>
+  <word key="language_export_update_check" js="0">Atualizar URL de Verificação </word>
+  <word key="language_export_long_version" js="0">Número da Versão </word>
+  <word key="theme_template_export_long_version" js="0">Número da Versão </word>
+  <word key="theme_template_export_author_name" js="0">Nome do Autor </word>
+  <word key="theme_template_export_author_url" js="0">URL do Autor </word>
   <word key="core_theme_set_favico_logo_desc" js="0">Esta é uma pequena imagem que aparece na barra de endereço do navegador.</word>
   <word key="menu__core_customization_themesettings" js="0">Configurações Personalizadas </word>
   <word key="core_theme_setting_word_default" js="0">Título </word>
@@ -218,6 +228,10 @@
   <word key="acplogs__advanced_server_edited" js="0">Definições de configuração do servidor editadas </word>
   <word key="menu__core_languages" js="0">Localização </word>
   <word key="menu__core_languages_languages" js="0">Idiomas</word>
+  <word key="lang_version_long" js="0">Número da Versão </word>
+  <word key="lang_update_url" js="0">Atualizar URL de Verificação </word>
+  <word key="lang_author_name" js="0">Nome do Autor </word>
+  <word key="lang_author_url" js="0">URL do Autor </word>
   <word key="see_whats_new" js="0">Veja as novidades </word>
   <word key="whats_new_title" js="0">Novidades da versão %s </word>
   <word key="onboard_next_staff_title" js="0">Administradores e Moderadores </word>
@@ -232,6 +246,7 @@
   <word key="modcp_members_restricted" js="0">Restrito </word>
   <word key="date_posted" js="0">Publicado %s </word>
   <word key="report_no_message" js="0">O usuário não enviou uma mensagem com o relatório.</word>
+  <word key="plugin_update_check" js="0">Atualizar URL de Verificação </word>
   <word key="plugin_step_cmsTemplates" js="0">Modelos de páginas </word>
   <word key="users_activity_feed" js="0">Atividade</word>
   <word key="all_activity" js="0">Todas as Atividades</word>
@@ -360,7 +375,10 @@
   <word key="submit_a_file" js="0">Envie um arquivo</word>
   <word key="file_changelog" js="0">Novidades</word>
   <word key="downloads" js="0">Transferências</word>
+  <word key="downloads_file_pending" js="0">Nova Versão </word>
+  <word key="downloads_file_pending_pl" js="0">Novas Versões de Arquivos </word>
   <word key="whats_new_in_version" js="0"><![CDATA[Novidades da versão <span data-role='versionTitle'>%s</span> ]]></word>
+  <word key="download_version" js="0">Transferência </word>
   <word key="browse_whats_new" js="0">Novidades</word>
   <word key="browse_highest_rated" js="0">Classificação mais alta</word>
   <word key="browse_most_downloaded" js="0">Mais Baixados</word>
@@ -410,6 +428,8 @@
  </app>
  <app key="cms" version="">
   <word key="content_block_template_use_default" js="0">Modelo padrão </word>
+  <word key="cms_block_form_display" js="0">Modelos </word>
+  <word key="cms_templates_export_title" js="0">Baixar Modelos </word>
   <word key="content_default_error_page" js="0">Tornar a página de erro padrão </word>
   <word key="content_database_manage_permissions" js="0">Permissões </word>
   <word key="content_database_form_lang" js="0">Idioma</word>
@@ -417,6 +437,7 @@
   <word key="database_forum_comments_desc" js="0">Os comentários serão postados como respostas. Se você alterar a forma como os comentários são armazenados, os comentários existentes não serão mais exibidos. Os comentários não são copiados para os fóruns ou para o banco de dados de comentários internos se você alterar esta configuração. </word>
   <word key="cms_database_add_new" js="0">Criar Novo Nanco de Dados </word>
   <word key="cms_database_permissions" js="0">Permissões de Banco de Dados </word>
+  <word key="cms_database_form_display" js="0">Modelos </word>
  </app>
  <app key="calendar" version="">
   <word key="calendar_permissions" js="0">Permissões </word>
