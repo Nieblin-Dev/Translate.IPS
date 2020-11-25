@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team" version="1.0.2" long_version="10020" update_check="https://nieblin.com/ips/br/changelog">
+<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team" version="1.0.2-1" long_version="10021" update_check="https://nieblin.com/ips/br/changelog">
  <app key="core" version="">
   <word key="embed_posted_item" js="0">%s postou um item em %s </word>
+  <word key="menu_manager_access_type" js="0">Permissões </word>
   <word key="menu_item_2" js="0">Atividade</word>
   <word key="default_menu_item_2" js="0">Atividade</word>
   <word key="stream_save_changes" js="0">Salvar essas alterações? </word>
@@ -32,8 +33,12 @@
   <word key="form_upload_dad_mini_one" js="0">Ou arraste e solte seu arquivo aqui </word>
   <word key="form_upload_choose_one" js="0">Escolha um Arquivo ...</word>
   <word key="form_upload_accepted" js="0">Tipos de arquivo aceitos</word>
+  <word key="editor__core_Staffdirectory" js="0">Diretório Pessoal </word>
+  <word key="editor__core_CustomField" js="0">Campos de Perfil </word>
+  <word key="editor__core_ProfileSteps" js="0">Passos do Perfil </word>
   <word key="editor_allowed_formmsg" js="0">Quando um usuário envia uma postagem, o conteúdo que parece malicioso é removido. Por exemplo, um usuário mal-intencionado pode tentar enviar uma postagem com conteúdo que se pareça com um formulário de login para enganar outros usuários ou conteúdo com a intenção de quebrar o layout de sua comunidade. Essas configurações permitem que você afrouxe as restrições usadas, se necessário.</word>
   <word key="editor_paste_behaviour_rich_desc" js="0">Quando o rich text é colado, uma barra aparecerá na parte inferior do editor com um botão para converter o conteúdo colado em texto simples. Os usuários também podem colar como texto simples usando Ctrl + Shift + V no Google Chrome no Windows ou ⌥⇧⌘V em qualquer navegador em um Mac.</word>
+  <word key="uploaderr_CANNOT_MAKE_DIR_admin" js="0">Não foi possível criar uma pasta para o arquivo. A pasta de armazenamento pode não existir ou pode não ter as permissões corretas para gravação. </word>
   <word key="home" js="0">Início</word>
   <word key="contact" js="0">Contate-Nos</word>
   <word key="contact_admin" js="0">Contate-Nos</word>
@@ -43,11 +48,15 @@
   <word key="coppa_form_phone" js="0">Número de Telefone: </word>
   <word key="add" js="0">Crie um Novo </word>
   <word key="site" js="0">Visite o Site </word>
+  <word key="permissions" js="0">Permissões </word>
   <word key="language" js="0">Idioma</word>
   <word key="whats_new_link" js="0">Novidades</word>
   <word key="date_started" js="0">Publicado %s </word>
   <word key="nothing_to_show" js="0">Nada para mostrar </word>
   <word key="date_replied" js="0">Publicado %s </word>
+  <word key="step_number" js="0">Passo %d </word>
+  <word key="restricted" js="0">Restrito </word>
+  <word key="unrestricted" js="0">Irrestrito </word>
   <word key="next_unread_not_found" js="0">Não há itens de conteúdo não lidos.</word>
   <word key="node_mass_content_blurb_2" js="0">Isso é tratado em segundo plano e não acontece imediatamente, no entanto, depois que o processo é iniciado. Você poderá ver o progresso no painel AdminCP.</word>
   <word key="no_results" js="0">Não há resultados para exibir. </word>
@@ -61,6 +70,8 @@
   <word key="database_table_new" js="0">Crie um Novo</word>
   <word key="database_column_default" js="0">Padrão </word>
   <word key="acplog__application_set_default" js="0">'%s' foi definido como novo aplicativo padrão </word>
+  <word key="ext__MemberExportPersonalInformation" js="0">Adicione dados adicionais ao arquivo XML de informações pessoais. </word>
+  <word key="login_profile" js="0">Sugerir para conclusão do Perfil? </word>
   <word key="oauth_wordpress_map_name" js="0">Primeiro Nome </word>
   <word key="member_content_items" js="0">Itens de Conteúdo</word>
   <word key="member_reset_lang" js="0">Idioma</word>
@@ -70,14 +81,29 @@
   <word key="email_spoiler_line" js="0">Visite o site para ler o texto oculto. </word>
   <word key="email_video_line" js="0">Visite o site para ver o conteúdo do vídeo. </word>
   <word key="g_sig_max_lines_desc" js="0">Essa configuração afeta o número de novas linhas que o usuário pode criar em uma assinatura. Uma longa linha de texto será quebrada automaticamente (o ponto em que o texto é quebrado depende da largura do navegador do usuário que está visualizando a assinatura) e isso não é afetado por esta configuração.</word>
+  <word key="r__leaders" js="0">Diretório Pessoal </word>
+  <word key="r__leaders_manage" js="0">Pode ver a visão geral do diretório de pessoal? </word>
+  <word key="menu__core_staff_directory" js="0">Diretório Pessoal </word>
+  <word key="staff_directory" js="0">Diretório Pessoal </word>
+  <word key="staff_group_template_desc" js="0"><![CDATA[<a href='{external.staffgrouptemplates}' target='_blank' rel='noopener'>Crie mais layouts</a> ]]></word>
+  <word key="only_one_leader" js="0">Você já adicionou este usuário ou grupo ao diretório de funcionários </word>
   <word key="bulkmail_notstarted" js="0">Não foi iniciado</word>
+  <word key="mf_mods_only" js="0">Moderadores </word>
+  <word key="mf_admins_mods_only" js="0">Administradores e Moderadores </word>
   <word key="email_embedded_your_content_guest" js="0">%s (Convidado) publicou um link para o seu conteúdo em %s. </word>
   <word key="email_embedded_your_content_plain" js="0"> %s publicou um link para o seu conteúdo em %s. </word>
+  <word key="profile_completion" js="0">Conclusão do Perfil.  </word>
   <word key="leaderboard_excluded_groups" js="0">Exclua estes grupos</word>
+  <word key="profile_fields" js="0">Campos de Perfil </word>
+  <word key="pfield_permissions" js="0">Permissões </word>
   <word key="pf_type_Tel" js="0">Número de Telefone</word>
+  <word key="module__core_staffdirectory" js="0">Diretório Pessoal </word>
   <word key="module__core_customization" js="0">Costumização </word>
   <word key="module__core_languages" js="0">Idiomas</word>
+  <word key="menu__core_membersettings_profilecompletion" js="0">Conclusão do Perfil.  </word>
+  <word key="menu__core_staff_moderators" js="0">Moderadores </word>
   <word key="menu__core_activitystats" js="0">Atividade</word>
+  <word key="r__moderators" js="0">Moderadores </word>
   <word key="r__languages" js="0">Idiomas</word>
   <word key="license_benefit_downloads" js="0">Transferências</word>
   <word key="menu__core_customization_emails" js="0">Emails </word>
@@ -86,6 +112,7 @@
   <word key="menutab__customization" js="0">Costumização </word>
   <word key="menu__core_customization_themes" js="0">Temas </word>
   <word key="menu__core_customization_icons" js="0">Ícones e Logotipos </word>
+  <word key="core_theme_set_permissions" js="0">Disponível para </word>
   <word key="core_theme_launch_vse_tooltip" js="0">Inicia o editor em uma nova janela do navegador</word>
   <word key="icons_favicon_desc" js="0">A imagem do favicon é mostrada ao lado do nome do site em várias áreas do navegador de um usuário, como na guia do navegador e nas listas de favoritos. As dimensões recomendadas para esta imagem são 48px x 48px. </word>
   <word key="icons_sharer_logo" js="0">Imagens de compartilhamento padrão </word>
@@ -99,6 +126,24 @@
   <word key="core_theme_set_favico_logo_desc" js="0">Esta é uma pequena imagem que aparece na barra de endereço do navegador.</word>
   <word key="menu__core_customization_themesettings" js="0">Configurações Personalizadas </word>
   <word key="core_theme_setting_word_default" js="0">Título </word>
+  <word key="theme_dm_err_cant_write_theme_id" js="0">Não é possível gravar o diretório de ID do tema dentro de inside /themes/. erifique as permissões para este diretório. </word>
+  <word key="giphy_rating_r" js="0">R: Restrito </word>
+  <word key="pixabay_editor_permissions_desc" js="0">Escolha quais grupos podem escolher banco de imagens ao usar um editor de texto com permissões de upload. Campos de upload separados, como aqueles usados ​​ao enviar uma foto de capa, não são afetados por esta configuração de permissão e sempre estarão disponíveis quando o membro tiver permissões de upload. </word>
+  <word key="wr_notes_desc" js="0">Os moderadores podem ajustar as notas ao avisar o membro </word>
+  <word key="moderators" js="0">Moderadores </word>
+  <word key="moderators_name" js="0">Moderador </word>
+  <word key="mod_use_restrictions" js="0">Permissões </word>
+  <word key="mod_all_permissions" js="0">Irrestrito </word>
+  <word key="mod_all_permissions_desc" js="0">Moderadores irrestritos têm acesso a todas as permissões de moderador na comunidade, incluindo quaisquer novas permissões adicionadas no futuro. Use isso apenas para moderadores em que você confia totalmente. </word>
+  <word key="mod_restricted" js="0">Restrito </word>
+  <word key="mod_restricted_desc" js="0">Você especificará as permissões disponíveis para este moderador abaixo. O moderador não herdará automaticamente nenhuma nova permissão de moderador adicionada no futuro. </word>
+  <word key="admin_all_permissions_desc" js="0">Os administradores irrestritos têm acesso a todas as permissões no AdminCP, incluindo quaisquer novas permissões adicionadas no futuro. Use-o apenas para administradores nos quais você confia totalmente. </word>
+  <word key="moderators_type_desc" js="0">Se um usuário estiver em mais de um grupo de moderadores, ele terá as melhores permissões de todos os grupos de moderadores combinados. Se um usuário tiver permissões de moderador de membro individuais configuradas aqui, as permissões de moderador de membro substituirão quaisquer permissões de moderador de grupo que, de outra forma, teriam herdado. </word>
+  <word key="mod_show_badge" js="0">Mostrar distintivo? </word>
+  <word key="mod_show_badge_desc" js="0">Os moderadores são identificados por meio de um crachá ao visualizar postagens e comentários </word>
+  <word key="editor_toolbar_desc" js="0">Arraste e solte os botões para reorganizar ou solte na seção abaixo para remover. Clique em um botão para editar suas permissões. </word>
+  <word key="editor_unused_desc" js="0">Arraste e solte os botões nas barras de ferramentas acima. Mesmo se um botão não estiver na barra de ferramentas, a funcionalidade ainda pode estar disponível usando o BBCode. Clique em um botão para ajustar suas permissões. </word>
+  <word key="dir_is_not_writable" js="0">%s não pode ser escrito. Ajuste as permissões nele ou entre em contato com seu provedor de hospedagem para obter assistência.</word>
   <word key="attach_hits" js="0">Transferências</word>
   <word key="ad_image_medium_desc" js="0">Esta imagem será exibida para usuários que visitam a partir de dispositivos como tablets, que são maiores do que telefones, mas menores do que a maioria dos navegadores, se fornecidos</word>
   <word key="add_advertisement" js="0">Criar novo anúncio</word>
@@ -108,12 +153,17 @@
   <word key="menu__core_languages_languages" js="0">Idiomas</word>
   <word key="see_whats_new" js="0">Veja as novidades </word>
   <word key="whats_new_title" js="0">Novidades da versão %s </word>
+  <word key="onboard_next_staff_title" js="0">Administradores e Moderadores </word>
+  <word key="onboard_next_staff" js="0">Configure administradores e moderadores adicionais que serão responsáveis ​​pelo gerenciamento da comunidade. </word>
+  <word key="onboard_skip_step" js="0">Pular esta etapa </word>
   <word key="change_details" js="0">Alterar Meus Dados</word>
   <word key="my_details" js="0">Meus Dados</word>
   <word key="messenger_filter_mine" js="0">Conversas que eu comecei</word>
   <word key="messenger_date_started" js="0">Conversa iniciada: %s </word>
+  <word key="modcp_members_restricted" js="0">Restrito </word>
   <word key="date_posted" js="0">Publicado %s </word>
   <word key="report_no_message" js="0">O usuário não enviou uma mensagem com o relatório.</word>
+  <word key="plugin_step_cmsTemplates" js="0">Modelos de páginas </word>
   <word key="users_activity_feed" js="0">Atividade</word>
   <word key="all_activity" js="0">Todas as Atividades</word>
   <word key="all_content_by_user" js="0">Tudo postado por %s </word>
@@ -126,6 +176,7 @@
   <word key="sort_rating_average" js="0">Classificação mais alta</word>
   <word key="widget_feed_tags_desc" js="0">Ao adicionar várias tags aqui, se alguma das tags corresponder, o item de conteúdo será mostrado.</word>
   <word key="search_everything" js="0">Todo o Conteúdo</word>
+  <word key="andOr" js="0">Encontre resultados que contenham... </word>
   <word key="search_index_timeframe_desc" js="0">Limitar os resultados pode tornar as pesquisas mais rápidas, especialmente para grandes comunidades; no entanto, o conteúdo anterior não aparecerá nos resultados da pesquisa, streams ou painel de controle do moderador. O conteúdo mais recente é automaticamente ponderado mais alto na classificação.</word>
   <word key="search_elastic_server_no_version" js="0">O servidor não retornou a resposta esperada. Verifique se Elasticsearch está instalado corretamente e acessível a partir de seu servidor web. Se você visitar o URL fornecido em seu navegador, verá os detalhes sobre a versão instalada.</word>
   <word key="search_elastic_server_error" js="0">O servidor não retornou a resposta esperada. Verifique se Elasticsearch está instalado corretamente e acessível a partir de seu servidor web. Se você visitar o URL fornecido em seu navegador, verá os detalhes sobre a versão instalada. Error: %s </word>
@@ -133,7 +184,9 @@
   <word key="get_support_error" js="0">Não foi possível enviar sua mensagem para o suporte técnico. Tente novamente na área do cliente.</word>
   <word key="allow_remote_images_desc" js="0">Você pode permitir que os usuários criem um link para imagens hospedadas remotamente, que serão exibidas em linha ao enviar conteúdo. Observe, entretanto, que o conteúdo hospedado remotamente pode ser removido a qualquer momento, pode produzir avisos de segurança do navegador em certos casos e pode permitir que esses sites remotos rastreiem seus usuários.</word>
   <word key="allow_only_https_remote_images_desc" js="0">Habilitar esta configuração impedirá que os usuários incorporem imagens usando http, em vez de exigir https. Você pode desejar habilitar esta configuração para evitar avisos de segurança do navegador se o seu site for seguro ou se você planeja adicionar um certificado SSL no futuro.</word>
+  <word key="api_permissions_access" js="0">Acesso </word>
   <word key="client_type_public_desc" js="0">Um aplicativo baseado em navegador escrito em JavaScript ou um aplicativo móvel/nativo que será instalado em um dispositivo ao qual um usuário final tenha acesso. Nenhum segredo do cliente será emitido.</word>
+  <word key="oauth_app_scopes" js="0">Permissões </word>
   <word key="menu__core_settings_contactus" js="0">Contate-Nos</word>
   <word key="r__contactus" js="0">Contate-Nos</word>
   <word key="r__contactus_manage" js="0">Pode gerenciar as configurações de Contate-Nos</word>
@@ -146,8 +199,27 @@
   <word key="mfa_phone_title" js="0">Verificação de Telefone</word>
   <word key="mfa_sms_or_phone_desc_user" js="0">Quando precisarmos que você verifique sua identidade, enviaremos uma mensagem de texto ou ligaremos para você com um código para você inserir.</word>
   <word key="leaderboard_all_apps" js="0">Todas as áreas </word>
+  <word key="promote_tab_permissions" js="0">Permissões </word>
+  <word key="acplogs__promote_changed_permissions" js="0">configurações de permissão</word>
   <word key="task__clubrebuild" js="0">Recalcula os dados nos clubes para classificação.</word>
   <word key="club_whats_new" js="0">Novidades neste clube</word>
+  <word key="club_moderation" js="0">Permissões </word>
+  <word key="clubs_paid_gateways" js="0">Métodos de Pagamento </word>
+  <word key="clubs_paid_gateways_desc" js="0">Os clientes só poderão pagar pela associação do clube com os métodos de pagamento selecionados. </word>
+  <word key="profile_completion_items" js="0">Itens do Conclusão do Perfil.  </word>
+  <word key="complete_profile_profile_fields" js="0">Campos de Perfil </word>
+  <word key="profile_step_title_desc" js="0">Título opcional da etapa do assistente. Se deixado em branco, um será automatizado. Por exemplo: Perfil Básico (Sobre Mim, Sexo). </word>
+  <word key="complete_profile_app__core_ProfileFields" js="0">Campos de Perfil </word>
+  <word key="profile_step_required" js="0">Requeridos </word>
+  <word key="profile_step_completion_act" js="0">Ação para completar a etapa </word>
+  <word key="profile_wizard_cancel" js="0">Pular a conclusão do perfil por enquanto </word>
+  <word key="profile_step_next" js="0">Próxima Etapa: </word>
+  <word key="profile_complete_skip_step" js="0">Pular esta etapa </word>
+  <word key="profile_complete_quick_register_off" js="0">O recurso de registro rápido deve ser ativado antes que você possa configurar a conclusão do perfil. </word>
+  <word key="profile_complete_blurb_title" js="0">Conclusão do perfil pós-registro </word>
+  <word key="profile_complete_blurb_desc" js="0">Crie etapas para que os membros concluam. Essas etapas podem ser obrigatórias ou opcionais. Se você criar uma nova etapa obrigatória, esta etapa será mostrada a todos os membros para conclusão. </word>
+  <word key="r__member_export_pi" js="0">Pode exportar informações pessoais de membros </word>
+  <word key="member_export_pi_title" js="0">Baixe informações pessoais </word>
   <word key="pp_desc_captcha" js="0">Este site usa um CAPTCHA para garantir que os humanos estejam executando certas ações. O provedor CAPTCHA pode definir um cookie de sessão e obter informações sobre seu navegador de Internet e dispositivo que acessa este site.</word>
   <word key="new_version_email_whatsnew" js="0">Aqui estão as novidades nesta versão:</word>
   <word key="app_home" js="0">Início</word>
@@ -170,6 +242,7 @@
   <word key="notificationsNotSure" js="1">Notificações do navegador não habilitadas</word>
   <word key="notificationsAllow" js="1">Ativar notificações do navegador</word>
   <word key="notificationsAllowPrompt" js="1">Em breve, seu navegador solicitará que você aceite nossas notificações. Atualize esta página após aceitá-los.</word>
+  <word key="warningPunishment_rpa" js="1">ser impedido de postar </word>
   <word key="streamFilter_stream_include_comments_0" js="1">Apenas itens</word>
   <word key="streamFilter_stream_read_all" js="1"><![CDATA[<em>Tudo</em> ]]></word>
   <word key="streamFilter_stream_follow_all" js="1"><![CDATA[<em>Tudo</em> ]]></word>
@@ -182,6 +255,7 @@
  </app>
  <app key="forums" version="">
   <word key="forum_type_qa_desc" js="0">Os usuários podem fazer perguntas para as quais outros usuários podem postar respostas. As respostas podem ser avaliadas por outros usuários e as respostas com maior pontuação são mostradas primeiro.</word>
+  <word key="bw_enable_answers_moderator_desc" js="0">Os moderadores podem marcar as postagens como a solução. </word>
   <word key="archiving_blurb" js="0">Se você tiver um site muito grande, pode ser benéfico reduzir o tamanho das postagens de armazenamento da tabela do banco de dados. Arquivar tópicos é uma alternativa à exclusão, o que permite que ainda existam e sejam vistos como normais, mas os move para uma tabela de banco de dados separada. Os tópicos arquivados não podem ser postados ou editados e não serão exibidos nos resultados da pesquisa. Você pode desarquivar tópicos após eles terem sido arquivados, se mudar de ideia. </word>
   <word key="archive_topic_starter" js="0">Começado por</word>
   <word key="questions_i_posted_in" js="0">Perguntas para as quais postei uma resposta</word>
@@ -222,6 +296,7 @@
   <word key="dua" js="0">Navegador</word>
   <word key="menu__downloads_stats_downloads" js="0">Transferências</word>
   <word key="ipAddresses__downloads_DownloadLog" js="0">Transferências</word>
+  <word key="idm_nexus_gateways" js="0">Métodos de Pagamento </word>
   <word key="idm_show_newest" js="0">Mostrar a caixa &quot;Novidades&quot;</word>
   <word key="idm_show_highest_rated" js="0">Mostrar a caixa &quot;Classificação mais alta&quot;</word>
   <word key="idm_show_most_downloaded" js="0">Mostrar a caixa &quot;Mais Baixados&quot;</word>
@@ -229,6 +304,8 @@
  </app>
  <app key="gallery" version="">
   <word key="__app_gallery" js="0">Galeria</word>
+  <word key="g_create_albums_fo" js="0">Pode criar álbuns de acesso restrito? </word>
+  <word key="g_create_albums_fo_desc" js="0">Os álbuns de acesso restrito são álbuns que apenas o criador e os usuários designados podem ver </word>
   <word key="g_download_original_desc" js="0">Os usuários ainda poderão baixar a imagem em tamanho grande por meio do navegador</word>
   <word key="submit_all_images" js="0">Envie todas as imagens</word>
   <word key="sort_album_rating_aggregate" js="0">Classificação mais alta</word>
@@ -246,16 +323,23 @@
  </app>
  <app key="convert" version="">
   <word key="new_library_not_in_dev" js="0">Você só pode criar novas bibliotecas enquanto IN_DEV. </word>
+  <word key="step_title" js="0">Passo </word>
+  <word key="_convert_profile_fields" js="0">Campos de Perfil </word>
+  <word key="_convert_moderators" js="0">Moderadores </word>
+  <word key="convert_nexus_payment_methods" js="0">Converter métodos de pagamento </word>
  </app>
  <app key="cms" version="">
   <word key="content_block_template_use_default" js="0">Modelo padrão </word>
   <word key="content_default_error_page" js="0">Tornar a página de erro padrão </word>
+  <word key="content_database_manage_permissions" js="0">Permissões </word>
   <word key="content_database_form_lang" js="0">Idioma</word>
   <word key="database_comment_bump_desc" js="0">A última ação mostra na visão de categoria e é como os itens são classificados por padrão / podem ser usados ​​para classificar itens. Observe que o ajuste dessa configuração não é retroativo e só se aplicará a comentários feitos ou registros editados posteriormente. </word>
   <word key="database_forum_comments_desc" js="0">Os comentários serão postados como respostas. Se você alterar a forma como os comentários são armazenados, os comentários existentes não serão mais exibidos. Os comentários não são copiados para os fóruns ou para o banco de dados de comentários internos se você alterar esta configuração. </word>
   <word key="cms_database_add_new" js="0">Criar Novo Nanco de Dados </word>
+  <word key="cms_database_permissions" js="0">Permissões de Banco de Dados </word>
  </app>
  <app key="calendar" version="">
+  <word key="calendar_permissions" js="0">Permissões </word>
   <word key="can_move_calendar_event_desc" js="0">Será capaz de mover eventos apenas entre os calendários nos quais eles podem criar novos conteúdos. </word>
   <word key="submit_event" js="0">Envie um evento</word>
   <word key="x_created_event_in" js="0">%s postou um evento em %s </word>
@@ -265,26 +349,44 @@
   <word key="menu__nexus_stock" js="0">Configurações da Loja </word>
   <word key="default_menu_item_support" js="0">Suporte </word>
   <word key="default_menu_item_my_details" js="0">Meus Dados</word>
+  <word key="menu__nexus_stock_gateways" js="0">Métodos de Pagamento </word>
+  <word key="payment_methods" js="0">Métodos de Pagamento </word>
+  <word key="gateways_gateway" js="0">Forma de pagamento </word>
+  <word key="stripe_type_header" js="0">Forma de pagamento </word>
   <word key="stripe_type_native" js="0">Recursos do navegador (Apple Pay / Google Pay)</word>
+  <word key="stripe_type_desc" js="0">Para permitir que os usuários escolham, configure vários métodos de pagamento Stripe. </word>
   <word key="authorizenet_cim_desc" js="0">Usa o gerenciador de informações do cliente (CIM). Os detalhes do cartão são armazenados nos servidores da Authorize.Net, não nos seus.</word>
+  <word key="gateway__Braintree_desc" js="0"><![CDATA[Requer processo de inscrição abrangente <a href='{external.braintree_doc}'>Mais Informações</a> ]]></word>
+  <word key="braintree_type_header" js="0">Forma de pagamento </word>
+  <word key="braintree_type_desc" js="0">Para permitir que os usuários escolham, configure vários métodos de pagamento Braintree. </word>
+  <word key="t_method" js="0">Forma de pagamento </word>
   <word key="refund_invoice_pending_desc" js="0">Quaisquer compras ou benefícios que o cliente recebeu deste pagamento serão revogados. A fatura será definida como pendente para que eles possam enviar um pagamento alternativo. Selecione esta opção se houver um problema com o pagamento e você espera que o cliente pague de forma diferente.</word>
   <word key="refund_invoice_expired_desc" js="0">Quaisquer compras ou benefícios que o cliente recebeu deste pagamento serão revogados. A fatura será definida como expirada para que o cliente não possa enviar um pagamento alternativo.</word>
   <word key="refund_invoice_canceled_desc" js="0">Quaisquer compras ou benefícios que o cliente recebeu deste pagamento serão revogados. A fatura será definida para cancelada para que o cliente não possa enviar pagamento alternativo. Selecione esta opção se o cliente não quiser mais fazer a compra.</word>
   <word key="transaction_customer" js="0">Informação do Cliente</word>
   <word key="maxmind_customer_information" js="0">Informação do Cliente</word>
+  <word key="currency_code" js="0">Código da Moeda </word>
+  <word key="currency_code_invalid" js="0">%s não é um código de moeda padrão. </word>
   <word key="currency_default" js="0">Padrão? </word>
   <word key="billing_agreement_error_public" js="0">A ação solicitada não pôde ser executada. Por favor, entre em contato conosco para mais </word>
+  <word key="maxmind_gateways" js="0">Métodos de Pagamento </word>
   <word key="card_information_invalid" js="0">As informações do cartão fornecidas não eram válidas ou o cartão expirou. Verifique as informações inseridas ou entre em contato conosco para obter mais assistência.</word>
   <word key="card_requires_js" js="0">Habilite o JavaScript em seu navegador para continuar.</word>
   <word key="cm_first_name" js="0">Primeiro Nome </word>
   <word key="cm_last_name" js="0">Sobrenome</word>
+  <word key="err_no_methods_admin" js="0">Não existem métodos de pagamento disponíveis. Isso pode acontecer se, por exemplo, você tiver dois produtos que estão configurados para só poderem ser pagos por dois métodos de pagamento diferentes e você tentar comprá-los juntos. Ou, se você restringir os métodos de pagamento para estarem disponíveis apenas em alguns países e não houver métodos de pagamento disponíveis para este endereço de cobrança. </word>
+  <word key="split_payment_title" js="0">Pague por este pedido usando vários métodos de pagamento </word>
   <word key="f_blurb_maxmind_phone_match_n" js="0">O número de telefone não corresponde ao código postal do endereço de cobrança</word>
   <word key="customerTable_cm_first_name" js="0">Primeiro Nome </word>
   <word key="customerTable_cm_last_name" js="0">Sobrenome</word>
   <word key="customerTable_cm_phone" js="0">Número de Telefone </word>
+  <word key="card_gateway" js="0">Forma de pagamento </word>
   <word key="customer_information" js="0">Informação do Cliente</word>
   <word key="edit_customer_info" js="0">Editar informações do cliente</word>
+  <word key="customer_tab_cards" js="0">Métodos de pagamento armazenados </word>
   <word key="purchase_customer_info" js="0">Informação do Cliente</word>
+  <word key="po_gateway" js="0">Forma de pagamento </word>
+  <word key="task__sendInvoiceWarnings" js="0">Envia um aviso aos clientes que terão faturas de renovação geradas em breve e têm formas de pagamento registradas que serão cobradas automaticamente. </word>
   <word key="r_stream" js="0">Mostrar</word>
   <word key="support_honor_severity_sort" js="0">Honrar a ordem de severidade na classificação</word>
   <word key="support_no_honor_severity_sort" js="0">Ignorar severidades na classificação</word>
@@ -296,6 +398,8 @@
   <word key="package_discounts" js="0">Desconto </word>
   <word key="package_store" js="0">Configurações da Loja </word>
   <word key="p_support_desc" js="0">Isso vinculará o cliente ao formulário para enviar uma solicitação de suporte com a compra selecionada como a compra associada.</word>
+  <word key="p_methods" js="0">Métodos de Pagamento </word>
+  <word key="p_methods_desc" js="0">Os clientes só poderão pagar por este produto e renovações com os métodos de pagamento selecionados. Observe que, se dois produtos não tiverem métodos comuns disponíveis, os clientes não poderão comprá-los juntos. </word>
   <word key="subscription_delete_blurb" js="0">Existem assinantes deste plano. Se você excluí-lo, os usuários ainda serão cobrados, mas não serão movidos de volta ao grupo original se permitirem que a assinatura expire. </word>
   <word key="gift_voucher_message" js="0">Sua Mensagem</word>
   <word key="browse_store" js="0">Navegar na Loja</word>
@@ -303,11 +407,16 @@
   <word key="nexus_show_tax" js="0">Incluir imposto nos preços mostrados na loja? </word>
   <word key="nexus_tax_explain_desc" js="0">O valor inserido aqui será mostrado ao lado dos preços e pode ser usado para explicar se o preço inclui imposto ou não. </word>
   <word key="client_area_my_details" js="0">Meus Dados</word>
+  <word key="client_cards" js="0">Métodos de Pagamento </word>
+  <word key="client_info" js="0">Informação Pessoal</word>
   <word key="address_billing_title" js="0">Defina este endereço como seu endereço de cobrança padrão </word>
   <word key="address_shipping_title" js="0">Defina este endereço como seu endereço de entrega padrão</word>
   <word key="address_book_info" js="0">Seus endereços salvos são listados aqui junto com suas opções padrão para cobrança e envio. Você sempre pode usar um novo endereço ao finalizar a compra. </word>
   <word key="address_default_billing" js="0">Endereço de Cobrança Principal </word>
   <word key="address_default_shipping" js="0">Endereço de Entrega Principal </word>
+  <word key="altcontact_info" js="0">Contatos alternativos são outros usuários aos quais você concede acesso à sua conta. Dependendo das permissões que você concede, eles podem criar solicitações de suporte ou pagar faturas para uma ou mais de suas compras, em seu nome. </word>
+  <word key="cards_title" js="0">Seus métodos de pagamento armazenados </word>
+  <word key="cards_info" js="0">Seus métodos de pagamento armazenados facilitam o check-out no momento da compra e serão usados ​​automaticamente para faturas de renovação. </word>
   <word key="purchases_title" js="0">Gerenciar suas Compras</word>
   <word key="purchases_none" js="0">Você ainda não tem compras que possam ser gerenciadas</word>
   <word key="customerinfo_title" js="0">Informação do Cliente</word>
@@ -319,6 +428,7 @@
   <word key="c_products_desc" js="0">O cupom só poderá ser usado se o membro estiver comprando um dos produtos especificados. </word>
   <word key="easypost_phone" js="0">Seu Número de Telefone</word>
   <word key="easypost_phone_desc" js="0">Algumas transportadoras exigem seu número de telefone, caso precisem entrar em contato com você sobre uma remessa.</word>
+  <word key="email_card_on_file" js="0">Forma de pagamento </word>
   <word key="log_type_title_info" js="0">Mudanças nas informações do cliente</word>
   <word key="log_type_title_subscription" js="0">Assinaturas </word>
   <word key="menu__nexus_subscriptions" js="0">Assinaturas </word>
@@ -328,6 +438,7 @@
   <word key="r__subscribers" js="0">Assinantes </word>
   <word key="r__subscribers_manage" js="0">Pode gerenciar assinantes?</word>
   <word key="sp_enabled_desc" js="0">Mesmo se desativado, os usuários que já adquiriram este plano ainda terão todos os benefícios concedidos a eles ao adquirir e poderão renovar; no entanto, os usuários que adquiriram outros planos de assinatura não poderão fazer upgrade/downgrade para este plano.</word>
+  <word key="sp_gateways" js="0">Métodos de Pagamento </word>
   <word key="nexus_subs_off_text" js="0"><![CDATA[As assinaturas são uma maneira simples de cobrar por ser movido para um grupo de usuários diferente.<br><br>Cada membro pode ter apenas uma assinatura ativa, mas pode fazer upgrade ou downgrade entre os diferentes planos que você configurou. ]]></word>
   <word key="nexus_sub_start" js="0">Começado</word>
   <word key="nexus_cm_last_name" js="0">Sobrenome</word>
