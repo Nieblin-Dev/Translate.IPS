@@ -75,9 +75,9 @@
   <word key="language" js="0">Idioma</word>
   <word key="advanced_settings" js="0">Configurações Avançadas </word>
   <word key="whats_new_link" js="0">Novidades</word>
-  <word key="date_started" js="0">Publicado %s </word>
+  <word key="date_started" js="0">Postado %s </word>
   <word key="nothing_to_show" js="0">Nada para mostrar </word>
-  <word key="date_replied" js="0">Publicado %s </word>
+  <word key="date_replied" js="0">Postado %s </word>
   <word key="step_number" js="0">Passo %d </word>
   <word key="medium" js="0">Médio </word>
   <word key="restricted" js="0">Restrito </word>
@@ -244,7 +244,7 @@
   <word key="messenger_filter_mine" js="0">Conversas que eu comecei</word>
   <word key="messenger_date_started" js="0">Conversa iniciada: %s </word>
   <word key="modcp_members_restricted" js="0">Restrito </word>
-  <word key="date_posted" js="0">Publicado %s </word>
+  <word key="date_posted" js="0">Postado %s </word>
   <word key="report_no_message" js="0">O usuário não enviou uma mensagem com o relatório.</word>
   <word key="plugin_update_check" js="0">Atualizar URL de Verificação </word>
   <word key="plugin_step_cmsTemplates" js="0">Modelos de páginas </word>
@@ -312,13 +312,13 @@
   <word key="pp_desc_captcha" js="0">Este site usa um CAPTCHA para garantir que os humanos estejam executando certas ações. O provedor CAPTCHA pode definir um cookie de sessão e obter informações sobre seu navegador de Internet e dispositivo que acessa este site.</word>
   <word key="new_version_email_whatsnew" js="0">Aqui estão as novidades nesta versão:</word>
   <word key="app_home" js="0">Início</word>
-  <word key="app_activity_posted_item" js="0">{{user}} publicado {{article}} </word>
+  <word key="app_activity_posted_item" js="0">{{user}} postado {{article}} </word>
   <word key="app_tab_home" js="0">Início</word>
   <word key="app_upload_in_progress_desc" js="0">Aguarde até que as imagens carregadas tenham concluído o processamento e envie novamente.</word>
   <word key="app_notification_group_core" js="0">Geral </word>
   <word key="app_last_week" js="0">Semana Anterior</word>
   <word key="app_all_activity" js="0">Todas as Atividades</word>
-  <word key="app_follow_immediate" js="0">Uma notificação quando um novo conteúdo é publicado </word>
+  <word key="app_follow_immediate" js="0">Uma notificação quando um novo conteúdo é postado </word>
   <word key="app_choose_reason" js="0">O que está errado?</word>
   <word key="mobile_app_splash_get_started" js="0">Iniciar</word>
   <word key="mobile_app_listing_languages" js="0">Idioma(s) </word>
@@ -355,7 +355,7 @@
   <word key="questions_i_posted_in" js="0">Perguntas para as quais postei uma resposta</word>
   <word key="forums_topic_list_snippet" js="0">Visualização Expandida: mostra tópicos com uma prévia da postagem</word>
   <word key="forums_topic_list_list" js="0">Visualização Compacta: Mostrar tópicos como uma lista</word>
-  <word key="block_latestTopics_desc" js="0">Mostra os últimos tópicos publicado </word>
+  <word key="block_latestTopics_desc" js="0">Mostra os últimos tópicos Postado </word>
   <word key="app_create_new_topic" js="0">Criar Novo Tópico </word>
  </app>
  <app key="downloads" version="">
