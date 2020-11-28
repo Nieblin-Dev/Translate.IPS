@@ -87,11 +87,11 @@
   <word key="acplogs__datastore_updated" js="0">Configuração de cache atualizada </word>
   <word key="acplogs__datastore_settings_updated" js="0">Configuração de cache atualizada </word>
   <word key="whats_new_link" js="0">Novidades</word>
-  <word key="date_started" js="0">Publicado %s </word>
+  <word key="date_started" js="0">Postado %s </word>
   <word key="nothing_to_show" js="0">Nada para mostrar </word>
   <word key="_date_just_now_c" js="0">Agora mesmo </word>
   <word key="_date_just_now" js="0">Agora mesmo </word>
-  <word key="date_replied" js="0">Publicado %s </word>
+  <word key="date_replied" js="0">Postado %s </word>
   <word key="step_number" js="0">Passo %d </word>
   <word key="medium" js="0">Médio </word>
   <word key="restricted" js="0">Restrito </word>
@@ -357,7 +357,7 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="modcp_reports_view" js="0">Conteúdo Relatado  - %s </word>
   <word key="modcp_members_restricted" js="0">Restrito </word>
   <word key="no_results_reports" js="0">Não há relatórios para exibir. </word>
-  <word key="date_posted" js="0">Publicado %s </word>
+  <word key="date_posted" js="0">Postado %s </word>
   <word key="report_center_header" js="0">Conteúdo relatado pelo usuário </word>
   <word key="report_center_link" js="0">Todo o conteúdo relatado </word>
   <word key="report_no_message" js="0">O usuário não enviou uma mensagem com o relatório.</word>
@@ -445,14 +445,14 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="acp_notification_bulletin_email" js="0">Uma mensagem importante da Invision Power Services sobre a sua comunidade: </word>
   <word key="emailstats__notification_report_center" js="0">Notificação do moderador sobre o conteúdo denunciado </word>
   <word key="app_home" js="0">Início</word>
-  <word key="app_activity_posted_item" js="0">{{user}} publicado {{article}} </word>
+  <word key="app_activity_posted_item" js="0">{{user}} Postado {{article}} </word>
   <word key="app_tab_home" js="0">Início</word>
   <word key="app_upload_in_progress_desc" js="0">Aguarde até que as imagens carregadas tenham concluído o processamento e envie novamente.</word>
   <word key="app_started_by_x" js="0">Começado por {{name}} </word>
   <word key="app_notification_group_core" js="0">Geral </word>
   <word key="app_last_week" js="0">Semana Anterior</word>
   <word key="app_all_activity" js="0">Todas as Atividades</word>
-  <word key="app_follow_immediate" js="0">Uma notificação quando um novo conteúdo é publicado </word>
+  <word key="app_follow_immediate" js="0">Uma notificação quando um novo conteúdo é Postado </word>
   <word key="app_choose_reason" js="0">O que está errado?</word>
   <word key="mobile_app_splash_get_started" js="0">Iniciar</word>
   <word key="mobile_app_listing_languages" js="0">Idioma(s) </word>
@@ -505,7 +505,7 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="questions_i_posted_in" js="0">Perguntas para as quais postei uma resposta</word>
   <word key="forums_topic_list_snippet" js="0">Visualização Expandida: mostra tópicos com uma prévia da postagem</word>
   <word key="forums_topic_list_list" js="0">Visualização Compacta: Mostrar tópicos como uma lista</word>
-  <word key="block_latestTopics_desc" js="0">Mostra os últimos tópicos publicado </word>
+  <word key="block_latestTopics_desc" js="0">Mostra os últimos tópicos Postado </word>
   <word key="app_create_new_topic" js="0">Criar Novo Tópico </word>
   <word key="markForumAsReadConfirm" js="1">Tem certeza de que deseja marcar todos os tópicos deste fórum como lidos? </word>
  </app>
