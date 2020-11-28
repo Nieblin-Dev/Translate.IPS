@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team" version="1.0.2-3" long_version="10023" update_check="https://nieblin.com/ips/br/changelog">
+<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.com/team" version="1.0.2-4" long_version="1024" update_check="https://nieblin.com/ips/br/changelog">
  <app key="core" version="">
+  <word key="__indefart_personal_conversation_message" js="0">uma mensagem em uma conversa pessoal </word>
+  <word key="__defart_personal_conversation_message" js="0">mensagem em uma conversa pessoal </word>
   <word key="embed_posted_item" js="0">%s postou um item em %s </word>
   <word key="add_menu_sep_short" js="0">Adicionar Separador </word>
   <word key="menu_manager_revert" js="0">Restaurar Configuração Padrão </word>
@@ -25,6 +27,7 @@
   <word key="restore_default_streams" js="0">Restaurar Streams Padrão </word>
   <word key="all_activity_extra_stream" js="0">Mostrar em Todas as Atividades</word>
   <word key="activity_member_followed" js="0">%s começou a seguir %s </word>
+  <word key="stream_blurb_i_started" js="0">eu postei </word>
   <word key="stream_sorting" js="0">Ordenar</word>
   <word key="stream_results_as_condensed" js="0">Compacto</word>
   <word key="stream_results_as_expanded" js="0">Expandido</word>
@@ -36,6 +39,7 @@
   <word key="form_upload_dad_mini_one" js="0">Ou arraste e solte seu arquivo aqui </word>
   <word key="form_upload_choose_one" js="0">Escolha um Arquivo ...</word>
   <word key="form_upload_accepted" js="0">Tipos de arquivo aceitos</word>
+  <word key="ckeditor_theme_ips" js="0">Tema do Editor Padrão </word>
   <word key="editor__core_Staffdirectory" js="0">Diretório Pessoal </word>
   <word key="editor__core_CustomField" js="0">Campos de Perfil </word>
   <word key="editor__core_ProfileSteps" js="0">Passos do Perfil </word>
@@ -61,33 +65,49 @@
   <word key="enable_bbcode" js="0">Habilitar análise de BBCode </word>
   <word key="enable_bbcode_desc" js="0">BBCode é uma linguagem de marcação legada que foi originalmente projetada para permitir que os usuários enviem conteúdo rico antes do avanço dos editores WYSIWYG. O suporte ao BBCode está obsoleto e pode ser removido em uma versão futura, e recomendamos deixar esta opção desabilitada para maior desempenho e confiabilidade se sua comunidade não depende da análise do BBCode para formatar postagens.</word>
   <word key="uploaderr_CANNOT_MAKE_DIR_admin" js="0">Não foi possível criar uma pasta para o arquivo. A pasta de armazenamento pode não existir ou pode não ter as permissões corretas para gravação. </word>
+  <word key="userbar_reports" js="0">Conteúdo Relatado </word>
   <word key="home" js="0">Início</word>
+  <word key="create_menu_title" js="0">Crie um novo conteúdo </word>
+  <word key="mark_site_read" js="0">Marque todo o conteúdo do site como lido </word>
+  <word key="mark_site_read_button" js="0">Marcar site lido </word>
   <word key="contact" js="0">Contate-Nos</word>
   <word key="contact_admin" js="0">Contate-Nos</word>
   <word key="contact_text" js="0">Sua Mensagem</word>
   <word key="contact_sent_blurb" js="0">Obrigado, sua mensagem foi enviada para os administradores.</word>
   <word key="default_no_parenthesis" js="0">Padrão </word>
+  <word key="reg_start_faster" js="0">Comece mais rápido </word>
   <word key="coppa_form_phone" js="0">Número de Telefone: </word>
   <word key="add" js="0">Crie um Novo </word>
   <word key="site" js="0">Visite o Site </word>
   <word key="permissions" js="0">Permissões </word>
   <word key="stack_add" js="0">Adicionar outro </word>
   <word key="language" js="0">Idioma</word>
+  <word key="skin" js="0">Tema </word>
   <word key="advanced_settings" js="0">Configurações Avançadas </word>
+  <word key="acplogs__datastore_updated" js="0">Configuração de cache atualizada </word>
+  <word key="acplogs__datastore_settings_updated" js="0">Configuração de cache atualizada </word>
   <word key="whats_new_link" js="0">Novidades</word>
-  <word key="date_started" js="0">Postado %s </word>
+  <word key="date_started" js="0">Publicado %s </word>
   <word key="nothing_to_show" js="0">Nada para mostrar </word>
-  <word key="date_replied" js="0">Postado %s </word>
+  <word key="_date_just_now_c" js="0">Agora mesmo </word>
+  <word key="_date_just_now" js="0">Agora mesmo </word>
+  <word key="date_replied" js="0">Publicado %s </word>
   <word key="step_number" js="0">Passo %d </word>
   <word key="medium" js="0">Médio </word>
   <word key="restricted" js="0">Restrito </word>
   <word key="unrestricted" js="0">Irrestrito </word>
+  <word key="admin_csrf_error" js="0">A chave de proteção CSRF não coincidiu. Isso pode indicar que um plugin ou tema está desatualizado. Entre em contato com o suporte técnico para obter mais informações. </word>
   <word key="next_unread_not_found" js="0">Não há itens de conteúdo não lidos.</word>
+  <word key="acplog__node_created" js="0">Criado %s - %s </word>
   <word key="node_mass_content_blurb_2" js="0">Isso é tratado em segundo plano e não acontece imediatamente, no entanto, depois que o processo é iniciado. Você poderá ver o progresso no painel AdminCP.</word>
   <word key="no_results" js="0">Não há resultados para exibir. </word>
   <word key="search_admincp" js="0">Pesquise por configurações, membros, etc. </word>
   <word key="admincp_home" js="0">Início</word>
+  <word key="jump_to_content" js="0">Ir para o conteúdo </word>
+  <word key="acp_login" js="0">Invision Community 4 </word>
   <word key="acp_designersmode_on_title" js="0">Modo Designers </word>
+  <word key="acp_indev_on_blurb" js="0">Atualmente, você tem o modo de desenvolvimento (IN_DEV) ativado. Este modo foi projetado para permitir que você desenvolva aplicativos e plug-ins para a Comunidade Invision e destina-se a usuários avançados. </word>
+  <word key="acp_designersmode_on_blurb" js="0">Atualmente, você tem o modo de designers habilitado. Este modo permite que os designers criem e editem temas para o Invision Community em um ambiente de desenvolvimento. </word>
   <word key="acplog__upgrade_started" js="0">Atualização da comunidade iniciada</word>
   <word key="dev_widget_default_area_header" js="0">Cabeçalho </word>
   <word key="dev_widget_default_area_footer" js="0">Rodapé </word>
@@ -98,15 +118,25 @@
   <word key="app_update_check" js="0">Atualizar URL de Verificação </word>
   <word key="acplog__application_set_default" js="0">'%s' foi definido como novo aplicativo padrão </word>
   <word key="ext__MemberExportPersonalInformation" js="0">Adicione dados adicionais ao arquivo XML de informações pessoais. </word>
+  <word key="task__rssimport" js="0">Verifica feeds RSS/Atom em busca de novos artigos e os importa. </word>
   <word key="login_profile" js="0">Sugerir para conclusão do Perfil? </word>
+  <word key="account_management_email_pass_blurb" js="0">Você não precisará alterar essas configurações, a menos que sua comunidade use principalmente um método de login que gerencia os dados da conta, como um banco de dados MySQL externo ou LDAP. </word>
   <word key="oauth_wordpress_map_name" js="0">Primeiro Nome </word>
+  <word key="members_filter_administrators" js="0">Administradores </word>
   <word key="member_content_items" js="0">Itens de Conteúdo</word>
+  <word key="stats_onlineusers_title" js="0">Usuários online por período de tempo </word>
+  <word key="acplog__statsonlineusers_settings" js="0">Configurações ajustadas de remoção de estatísticas de usuário online </word>
+  <word key="member_reset_theme" js="0">Temas</word>
   <word key="member_reset_lang" js="0">Idioma</word>
   <word key="device_other_members_info" js="0">Esta tabela mostra outros membros que também fizeram login com este dispositivo. Isso pode indicar que todas as contas pertencem à mesma pessoa, mas também pode significar que pessoas diferentes compartilham um computador ou que é um computador público. Observe que os usuários podem evitar essa detecção limpando os cookies em seus navegadores da web ou usando os recursos de privacidade de seus navegadores; portanto, esses resultados podem não ser completos.</word>
   <word key="device_table_user_agent" js="0">Navegador</word>
+  <word key="account_banned_group" js="0">O membro está em um grupo que não tem permissão para acessar a comunidade. </word>
   <word key="club_ownership" js="0">Propriedade do clube</word>
+  <word key="report_count_desc" js="0">Se houver relatórios abertos, o ícone Conteúdo relatado no cabeçalho da página terá um emblema mostrando quantos. </word>
+  <word key="report_count_lc" js="0">selo de conteúdo relatado</word>
   <word key="email_spoiler_line" js="0">Visite o site para ler o texto oculto. </word>
   <word key="email_video_line" js="0">Visite o site para ver o conteúdo do vídeo. </word>
+  <word key="gbw_hide_group_desc" js="0">Você pode querer desligar isto se não quiser que a existência deste grupo seja conhecida em áreas que permitem a filtragem por grupos diferentes, como a lista de usuários online. Isso é particularmente útil para grupos que são usados ​​apenas como grupos secundários.</word>
   <word key="g_sig_max_lines_desc" js="0">Essa configuração afeta o número de novas linhas que o usuário pode criar em uma assinatura. Uma longa linha de texto será quebrada automaticamente (o ponto em que o texto é quebrado depende da largura do navegador do usuário que está visualizando a assinatura) e isso não é afetado por esta configuração.</word>
   <word key="r__leaders" js="0">Diretório Pessoal </word>
   <word key="r__leaders_manage" js="0">Pode ver a visão geral do diretório de pessoal? </word>
@@ -115,43 +145,68 @@
   <word key="staff_group_template_desc" js="0"><![CDATA[<a href='{external.staffgrouptemplates}' target='_blank' rel='noopener'>Crie mais layouts</a> ]]></word>
   <word key="only_one_leader" js="0">Você já adicionou este usuário ou grupo ao diretório de funcionários </word>
   <word key="bulkmail_notstarted" js="0">Não foi iniciado</word>
+  <word key="mf_admins_only" js="0">Administradores </word>
   <word key="mf_mods_only" js="0">Moderadores </word>
   <word key="mf_admins_mods_only" js="0">Administradores e Moderadores </word>
+  <word key="zapier_setup_intro" js="0"><![CDATA[Para começar, vá para o <a href='{external.zapier_apps}' target='_blank' rel='noopener'>My Apps</a> seção de sua conta Zapier e escolha Invision Community. Quando solicitado, forneça os seguintes detalhes: ]]></word>
   <word key="email_embedded_your_content_guest" js="0">%s (Convidado) publicou um link para o seu conteúdo em %s. </word>
   <word key="email_embedded_your_content_plain" js="0"> %s publicou um link para o seu conteúdo em %s. </word>
+  <word key="meta_editor_no_admin" js="0">Apenas administradores conectados têm permissão para editar metatags </word>
   <word key="add_another_meta_tag" js="0">Adicionar outra metatag </word>
   <word key="adminloginlogs_general" js="0">Geral </word>
   <word key="profile_completion" js="0">Conclusão do Perfil.  </word>
+  <word key="letterphoto_default" js="0">Use a foto de perfil padrão do tema </word>
   <word key="leaderboard_excluded_groups" js="0">Exclua estes grupos</word>
   <word key="add_poll_question_title" js="0">Adicione outra pergunta a esta enquete </word>
   <word key="profile_fields" js="0">Campos de Perfil </word>
   <word key="pfield_permissions" js="0">Permissões </word>
   <word key="pf_type_Tel" js="0">Número de Telefone</word>
+  <word key="acprestrictions" js="0">Administradores </word>
+  <word key="module__core_online" js="0">Lista de usuários online </word>
   <word key="module__core_staffdirectory" js="0">Diretório Pessoal </word>
   <word key="module__core_customization" js="0">Costumização </word>
   <word key="module__core_languages" js="0">Idiomas</word>
+  <word key="menu__core_staff_admin" js="0">Administradores </word>
   <word key="menu__core_membersettings_profilecompletion" js="0">Conclusão do Perfil.  </word>
   <word key="menu__core_staff_moderators" js="0">Moderadores </word>
   <word key="menu__core_editor_toolbar" js="0">Barras de Ferramentas </word>
   <word key="menu__core_settings_advanced" js="0">Configuração Avançada </word>
+  <word key="r__onlineusers" js="0">Estatísticas de Usuários Online </word>
+  <word key="r__onlineusers_manage" js="0">Pode visualizar estatísticas para usuários online? </word>
+  <word key="menu__core_stats_onlineusers" js="0">Usuários Online </word>
   <word key="menu__core_activitystats" js="0">Atividade</word>
+  <word key="stats_overview_online" js="0">Usuários Online </word>
+  <word key="r__staff_admin" js="0">Administradores </word>
+  <word key="r__restrictions_add_member" js="0">Pode adicionar administradores </word>
+  <word key="r__restrictions_edit_member" js="0">Pode adicionar administradores </word>
+  <word key="r__restrictions_delete_member" js="0">Pode excluir administradores </word>
   <word key="r__moderators" js="0">Moderadores </word>
   <word key="r__general" js="0">Configuração Geral </word>
   <word key="r__general_manage" js="0">Pode gerenciar a configuração geral</word>
+  <word key="r__theme_settings_add" js="0">Pode adicionar configurações de tema </word>
   <word key="r__languages" js="0">Idiomas</word>
   <word key="license_benefit_downloads" js="0">Transferências</word>
+  <word key="license_benefit_cms" js="0">Páginas </word>
   <word key="menu__core_customization_emails" js="0">Emails </word>
   <word key="upload_email_template" js="0">Carregar Modelo de Email </word>
+  <word key="theme_new_version_available" js="0">Atualização disponível! </word>
+  <word key="emailtpl_notification_report_center" js="0">Notificação de conteúdo relatado </word>
   <word key="menu__core_customization" js="0">Aparência </word>
   <word key="menutab__customization" js="0">Costumização </word>
   <word key="menu__core_customization_themes" js="0">Temas </word>
   <word key="menu__core_customization_icons" js="0">Ícones e Logotipos </word>
+  <word key="r__theme_sets" js="0">Temas </word>
+  <word key="r__theme_sets_manage" js="0">Gerenciar temas </word>
+  <word key="core_theme_set_title" js="0">Nome </word>
   <word key="theme_set_tab__general" js="0">Geral </word>
   <word key="theme_update_check" js="0">Atualizar URL de Verificação </word>
   <word key="core_theme_set_permissions" js="0">Disponível para </word>
+  <word key="core_theme_template_parse_error" js="0">O bit do modelo contém PHP ou tags de modelo quebrados e não pôde ser salvo. Reveja as suas modificações. </word>
+  <word key="core_theme_default_dev_reminder" js="0">Você está editando o tema Padrão com o modo de desenvolvedor habilitado. Todas as alterações feitas aqui serão armazenadas para novas instalações da Comunidade Invision. </word>
   <word key="core_theme_launch_vse_tooltip" js="0">Inicia o editor em uma nova janela do navegador</word>
   <word key="theme_editor_add_toolbar" js="0">Adicionar barra de ferramentas </word>
   <word key="theme_editor_add_separator" js="0">Adicionar separador </word>
+  <word key="theme_designers_mode_sync_desc" js="0">Isso sincronizará as alterações feitas no HTML, CSS e imagens no sistema de arquivos com o banco de dados. Se você não fizer isso, todas as suas alterações serão perdidas ao desligar o Modo Designers </word>
   <word key="icons_favicon_desc" js="0">A imagem do favicon é mostrada ao lado do nome do site em várias áreas do navegador de um usuário, como na guia do navegador e nas listas de favoritos. As dimensões recomendadas para esta imagem são 48px x 48px. </word>
   <word key="icons_sharer_logo" js="0">Imagens de compartilhamento padrão </word>
   <word key="icons_sharer_logo_desc" js="0">As imagens carregadas aqui serão usadas quando uma página for compartilhada por meio de um serviço social que suporta o padrão Open Graph (como o Facebook) e não possui imagens mais específicas para representar o conteúdo. </word>
@@ -160,22 +215,53 @@
   <word key="icons_mask_color" js="0">Cor do ícone da máscara do Safari </word>
   <word key="icons_mask_color_desc" js="0">Esta cor é usada quando o ícone da máscara do Safari está ativo ou pairando sobre ele. </word>
   <word key="configure_manifest_desc" js="0">O arquivo de manifesto define alguns detalhes sobre o seu site que os dispositivos móveis podem usar quando um usuário salva o seu site na tela inicial. Um arquivo de manifesto é disponibilizado automaticamente, se ainda não existir, no entanto, você pode substituir alguns dos padrões, se desejar. </word>
+  <word key="manifest_themecolor_desc" js="0">Essa cor pode ser usada por dispositivos móveis em certas áreas, como no alternador de aplicativos ou como a cor de fundo da barra de endereço. </word>
   <word key="manifest_browser" js="0">Navegador</word>
   <word key="language_export_author_name" js="0">Nome do Autor </word>
   <word key="language_export_author_url" js="0">URL do Autor </word>
   <word key="language_export_update_check" js="0">Atualizar URL de Verificação </word>
   <word key="language_export_long_version" js="0">Número da Versão </word>
+  <word key="core_theme_resource_location_type" js="0">Localização </word>
+  <word key="core_theme_resource_location_existing" js="0">Localização Existente </word>
+  <word key="core_theme_resource_location_new" js="0">Nova localização </word>
+  <word key="core_theme_resource_location_new_desc" js="0">Sem espaços e apenas os seguintes caracteres: a-z 0-9 </word>
   <word key="theme_template_export_long_version" js="0">Número da Versão </word>
   <word key="theme_template_export_author_name" js="0">Nome do Autor </word>
   <word key="theme_template_export_author_url" js="0">URL do Autor </word>
+  <word key="core_theme_set_new_import" js="0">Arquivo .xml de Tema </word>
+  <word key="core_theme_add_new" js="0">Criar Novo Tema </word>
+  <word key="core_theme_set_logo_manage" js="0">Site Logo </word>
+  <word key="core_theme_set_sharer_logo_too_small" js="0">A imagem fornecida é muito pequena. </word>
   <word key="core_theme_set_favico_logo_desc" js="0">Esta é uma pequena imagem que aparece na barra de endereço do navegador.</word>
+  <word key="theme_custom_setting_title_desc" js="0">Você pode criar strings de idioma modificando o arquivo lang.php no diretório do seu tema. </word>
+  <word key="theme_custom_setting_title_placeholder" js="0">Minha Configuração </word>
+  <word key="theme_custom_setting_add" js="0">Adicionar configuração </word>
   <word key="menu__core_customization_themesettings" js="0">Configurações Personalizadas </word>
   <word key="core_theme_setting_word_default" js="0">Título </word>
+  <word key="core_theme_setting_sc_type" js="0">Tipo </word>
+  <word key="core_theme_setting_word_custom" js="0">Título </word>
+  <word key="theme_custom_setting_type" js="0">Tipo </word>
+  <word key="theme_custom_setting_type_content" js="0">Opções </word>
+  <word key="theme_custom_setting_type_content_desc" js="0">Cada opção possui uma chave e um valor. O valor é uma escolha legível por humanos e a chave é usada de forma programática. </word>
+  <word key="theme_custom_setting_app" js="0">Para Aplicação </word>
+  <word key="core_theme_settings_error_key_not_unique" js="0">A chave de configuração deve ser única </word>
+  <word key="core_theme_settings_error_key_disallowed_characters" js="0">A chave de configuração contém caracteres que não são permitidos </word>
+  <word key="core_theme_settings_error_tab_key_not_unique" js="0">Você inseriu um novo nome de guia que já existe. Escolha uma guia existente ou insira um nome exclusivo </word>
+  <word key="theme_custom_setting_show_in_vse" js="0">Mostrar no Easy Mode Editor</word>
+  <word key="theme_custom_setting_conditional" js="0">Mostra condicionalmente? </word>
+  <word key="theme_custom_setting_condition" js="0">Condição </word>
+  <word key="theme_custom_setting_condition_desc" js="0">Fornece código PHP bruto que, quando avaliado, retornará um valor booleano indicando se a configuração deve ser exibida ou não. </word>
   <word key="themesetting_font_medium" js="0">Médio (px) </word>
+  <word key="theme_conflict_new_version" js="0">Nova Versão </word>
+  <word key="theme_conflict_old_version" js="0">Versão Atual </word>
+  <word key="theme_conflict_use_this" js="0">Use esta versão </word>
+  <word key="theme_conflict_save" js="0">Concluir e Salvar </word>
   <word key="theme_dm_err_cant_write_theme_id" js="0">Não é possível gravar o diretório de ID do tema dentro de inside /themes/. erifique as permissões para este diretório. </word>
+  <word key="theme_dm_building" js="0">Construindo os arquivos de tema do modo designer </word>
   <word key="giphy_rating_r" js="0">R: Restrito </word>
   <word key="pixabay_editor_permissions_desc" js="0">Escolha quais grupos podem escolher banco de imagens ao usar um editor de texto com permissões de upload. Campos de upload separados, como aqueles usados ​​ao enviar uma foto de capa, não são afetados por esta configuração de permissão e sempre estarão disponíveis quando o membro tiver permissões de upload. </word>
   <word key="wr_notes_desc" js="0">Os moderadores podem ajustar as notas ao avisar o membro </word>
+  <word key="allow_reg_redirect_desc" js="0">Você pode querer usar esta opção se sua comunidade usar principalmente um método de login com seu próprio formulário de registro, como um banco de dados MySQL externo ou LDAP. </word>
   <word key="moderators" js="0">Moderadores </word>
   <word key="moderators_name" js="0">Moderador </word>
   <word key="mod_use_restrictions" js="0">Permissões </word>
@@ -215,10 +301,13 @@
   <word key="emoji_ascii" js="0">Substituir texto por emoji? </word>
   <word key="dir_is_not_writable" js="0">%s não pode ser escrito. Ajuste as permissões nele ou entre em contato com seu provedor de hospedagem para obter assistência.</word>
   <word key="attach_hits" js="0">Transferências</word>
+  <word key="filestorage__core_Theme" js="0">Recursos do Tema </word>
   <word key="ad_html_specify_https_desc" js="0">Algumas redes de publicidade podem exigir que você use um código diferente em páginas seguras (HTTPS). Alternativamente, se você habilitar esta opção e não especificar nenhum código para usar em páginas seguras, o anúncio não será exibido em páginas seguras. </word>
   <word key="ad_image_medium" js="0">Imagem Média </word>
   <word key="ad_image_medium_desc" js="0">Esta imagem será exibida para usuários que visitam a partir de dispositivos como tablets, que são maiores do que telefones, mas menores do que a maioria dos navegadores, se fornecidos</word>
   <word key="add_advertisement" js="0">Criar novo anúncio</word>
+  <word key="ad_promo_msg" js="0">
+Adicione o Commerce to Invision Community para obter recursos adicionais de propaganda, incluindo a capacidade de vender espaço publicitário diretamente para seus membros por meio de um sistema de autoatendimento. </word>
   <word key="change_password_admin_4" js="0">Selecione 'Alterar Meus Dados'</word>
   <word key="change_email_admin_4" js="0">Selecione 'Alterar Meus Dados'</word>
   <word key="posting_general" js="0">Geral </word>
@@ -226,33 +315,66 @@
   <word key="furl_warning" js="0">O ajuste dessas configurações é recomendado apenas para usuários avançados. Os URLs personalizados não são compatíveis com os URLs padrão e, portanto, qualquer alteração terá um efeito negativo imediato nas classificações do mecanismo de pesquisa. </word>
   <word key="r__advanced" js="0">Configuração Avançada </word>
   <word key="acplogs__advanced_server_edited" js="0">Definições de configuração do servidor editadas </word>
+  <word key="datastore_method_FileSystem" js="0">Sistema de Arquivo </word>
+  <word key="datastore_redis_servers_err" js="0">Você deve fornecer o nome do hostname e deixar a porta do servidor em branco ou fornecer um número de porta válido </word>
+  <word key="datastore_change_download" js="0">Baixar constants.php </word>
+  <word key="datastore_change_error" js="0">Carregue o novo arquivo constants.php antes de clicar em continuar. </word>
+  <word key="theme_disk_cache_templates_desc" js="0">Armazenar caches de modelo em disco como arquivos executáveis ​​pode economizar tempo de processamento e uso de memória. </word>
   <word key="menu__core_languages" js="0">Localização </word>
   <word key="menu__core_languages_languages" js="0">Idiomas</word>
+  <word key="lang_word_theme" js="0">Tema </word>
+  <word key="lang_filter_translated" js="0">Traduzido </word>
+  <word key="lang_filter_untranslated" js="0">Não Traduzido </word>
+  <word key="acplogs__lang_translate" js="0">Frase traduzida do idioma com chave '%s' na linguagem '%s' </word>
+  <word key="core_lang_download_empty" js="0">Como não há chaves de idioma traduzidas, não há nada para baixar. </word>
   <word key="lang_version_long" js="0">Número da Versão </word>
   <word key="lang_update_url" js="0">Atualizar URL de Verificação </word>
+  <word key="word_custom_desc" js="0">As versões traduzidas do valor padrão. Você pode deixar em branco se desejar traduzi-los mais tarde. </word>
+  <word key="add_word_reason" js="0">As frases que você cria aqui podem ser usadas em modelos de tema para fornecer conteúdo em diferentes idiomas. </word>
   <word key="lang_author_name" js="0">Nome do Autor </word>
   <word key="lang_author_url" js="0">URL do Autor </word>
+  <word key="block_core_OnlineUsers" js="0">Usuários online por aplicativo </word>
+  <word key="no_online_users" js="0">Sem usuários online </word>
   <word key="see_whats_new" js="0">Veja as novidades </word>
   <word key="whats_new_title" js="0">Novidades da versão %s </word>
+  <word key="onboard_welcome_message_email" js="0"><![CDATA[<p>Bem-vindo à sua nova instalação da Comunidade Invision!</p><p>Agora, sabemos que você tem uma longa lista de tarefas antes de abrir sua comunidade. É por isso que colocamos todas as configurações mais necessárias (nome da comunidade, logotipos, etc.) em uma única página para ajudá-lo a fazer uma diferença nessa lista.</p><p>Clique no link abaixo para começar.</p><p>Entre em contato com nossa equipe de suporte técnico se precisar de mais ajuda!</p> ]]></word>
   <word key="onboard_next_staff_title" js="0">Administradores e Moderadores </word>
   <word key="onboard_next_staff" js="0">Configure administradores e moderadores adicionais que serão responsáveis ​​pelo gerenciamento da comunidade. </word>
+  <word key="onboard_takeme_admins" js="0">Gerenciar Administradores </word>
+  <word key="onboard_next_themes_title" js="0">Tema </word>
+  <word key="onboard_next_themes" js="0">Ajuste o tema integrado para combinar com sua própria marca ou instale novos temas predefinidos. </word>
+  <word key="onboard_msg_appearance" js="0">Personalizar a aparência de sua comunidade e enviar seu logotipo é uma maneira simples de torná-lo único e seu. Cada tema individual pode usar seu próprio logotipo, que pode ser alterado editando cada tema, enquanto os emails usam um único logotipo para todos os emails enviados pela comunidade. </word>
   <word key="onboard_msg_tasks" js="0">Por padrão, as tarefas em segundo plano são executadas com base no tráfego para sua comunidade, que geralmente é baixo no início. Você pode querer usar um cron job para executar suas tarefas a fim de garantir que sejam executadas mesmo que ninguém esteja visitando ainda. </word>
   <word key="onboard_skip_step" js="0">Pular esta etapa </word>
   <word key="change_details" js="0">Alterar Meus Dados</word>
   <word key="my_details" js="0">Meus Dados</word>
   <word key="clickjackprevention_csp" js="0">Usando uma Política de Degurança de Conteúdo Personalizada (avançado) </word>
+  <word key="messenger_action_read" js="0">Marcar todas como lidas </word>
   <word key="messenger_filter_mine" js="0">Conversas que eu comecei</word>
+  <word key="security_list_admins" js="0">Mostrar Administradores </word>
   <word key="messenger_date_started" js="0">Conversa iniciada: %s </word>
+  <word key="modcp_reports" js="0">Conteúdo Relatado </word>
+  <word key="modcp_reports_view" js="0">Conteúdo Relatado  - %s </word>
   <word key="modcp_members_restricted" js="0">Restrito </word>
-  <word key="date_posted" js="0">Postado %s </word>
+  <word key="no_results_reports" js="0">Não há relatórios para exibir. </word>
+  <word key="date_posted" js="0">Publicado %s </word>
+  <word key="report_center_header" js="0">Conteúdo relatado pelo usuário </word>
+  <word key="report_center_link" js="0">Todo o conteúdo relatado </word>
   <word key="report_no_message" js="0">O usuário não enviou uma mensagem com o relatório.</word>
   <word key="plugin_update_check" js="0">Atualizar URL de Verificação </word>
+  <word key="plugin_hook_type_s" js="0">Gancho de Tema </word>
+  <word key="plugin_hook_type_s_desc" js="0">Os ganchos de tema permitem que você modifique o conteúdo dos modelos de tema. </word>
   <word key="plugin_step_cmsTemplates" js="0">Modelos de páginas </word>
   <word key="users_activity_feed" js="0">Atividade</word>
   <word key="all_activity" js="0">Todas as Atividades</word>
   <word key="all_content_by_user" js="0">Tudo postado por %s </word>
   <word key="content_by_user" js="0">%s postado por %s </word>
   <word key="profile_nothing_to_edit" js="0">Não há personalizações de perfil disponíveis no momento. </word>
+  <word key="online_users" js="0">Usuários Online </word>
+  <word key="loc_viewing_online_users" js="0">Visualizando Lista de Usuários Online </word>
+  <word key="loc_viewing_online_users_action" js="0">%s está vendo usuários online </word>
+  <word key="no_permission_online_users" js="0">Você não tem permissão para visualizar a lista de usuários online </word>
+  <word key="block_whosOnline_desc" js="0">Mostra todos os usuários online em todo o site </word>
   <word key="block_topContributors_desc" js="0">Mostra quais membros receberam mais reputação ou curtidas na última semana, mês, ano ou sempre.</word>
   <word key="everything" js="0">Tudo</word>
   <word key="chart_no_results" js="0">Não há resultados para exibir. </word>
@@ -269,11 +391,14 @@
   <word key="search_elastic_server_no_version" js="0">O servidor não retornou a resposta esperada. Verifique se Elasticsearch está instalado corretamente e acessível a partir de seu servidor web. Se você visitar o URL fornecido em seu navegador, verá os detalhes sobre a versão instalada.</word>
   <word key="search_elastic_server_error" js="0">O servidor não retornou a resposta esperada. Verifique se Elasticsearch está instalado corretamente e acessível a partir de seu servidor web. Se você visitar o URL fornecido em seu navegador, verá os detalhes sobre a versão instalada. Error: %s </word>
   <word key="last_week" js="0">Semana Anterior</word>
+  <word key="support_third_party_theme_desc" js="0">Você pode alternar entre o seu tema e o padrão usando a lista suspensa Tema na parte inferior de qualquer página (ou clicando em seu nome no topo da página no AdminCP). </word>
   <word key="support_third_party_editor_link" js="0">Vá para as Barras de Ferramentas do Editor </word>
   <word key="get_support_error" js="0">Não foi possível enviar sua mensagem para o suporte técnico. Tente novamente na área do cliente.</word>
   <word key="allow_remote_images_desc" js="0">Você pode permitir que os usuários criem um link para imagens hospedadas remotamente, que serão exibidas em linha ao enviar conteúdo. Observe, entretanto, que o conteúdo hospedado remotamente pode ser removido a qualquer momento, pode produzir avisos de segurança do navegador em certos casos e pode permitir que esses sites remotos rastreiem seus usuários.</word>
   <word key="allow_only_https_remote_images_desc" js="0">Habilitar esta configuração impedirá que os usuários incorporem imagens usando http, em vez de exigir https. Você pode desejar habilitar esta configuração para evitar avisos de segurança do navegador se o seu site for seguro ou se você planeja adicionar um certificado SSL no futuro.</word>
   <word key="api_permissions_access" js="0">Acesso </word>
+  <word key="__api_core_messages" js="0">Mensagens </word>
+  <word key="client_type_confidential_desc" js="0">Um aplicativo do lado do servidor, como um site, onde o código será escrito em uma linguagem do lado do servidor e armazenado em um servidor ao qual nenhum usuário final tem acesso. Um segredo do cliente será emitido. </word>
   <word key="client_type_public_desc" js="0">Um aplicativo baseado em navegador escrito em JavaScript ou um aplicativo móvel/nativo que será instalado em um dispositivo ao qual um usuário final tenha acesso. Nenhum segredo do cliente será emitido.</word>
   <word key="oauth_app_scopes" js="0">Permissões </word>
   <word key="menu__core_settings_contactus" js="0">Contate-Nos</word>
@@ -295,6 +420,7 @@
   <word key="club_moderation" js="0">Permissões </word>
   <word key="clubs_paid_gateways" js="0">Métodos de Pagamento </word>
   <word key="clubs_paid_gateways_desc" js="0">Os clientes só poderão pagar pela associação do clube com os métodos de pagamento selecionados. </word>
+  <word key="club_restore_fee_no_purchase_warn" js="0">Este sócio nunca pagou para ser membro deste clube, portanto não há nenhuma compra existente para alterar. Para fazer com que eles paguem a taxa de associação, eles serão removidos do clube e então convidados novamente. </word>
   <word key="profile_completion_items" js="0">Itens do Conclusão do Perfil.  </word>
   <word key="complete_profile_profile_fields" js="0">Campos de Perfil </word>
   <word key="profile_step_title_desc" js="0">Título opcional da etapa do assistente. Se deixado em branco, um será automatizado. Por exemplo: Perfil Básico (Sobre Mim, Sexo). </word>
@@ -307,24 +433,37 @@
   <word key="profile_complete_quick_register_off" js="0">O recurso de registro rápido deve ser ativado antes que você possa configurar a conclusão do perfil. </word>
   <word key="profile_complete_blurb_title" js="0">Conclusão do perfil pós-registro </word>
   <word key="profile_complete_blurb_desc" js="0">Crie etapas para que os membros concluam. Essas etapas podem ser obrigatórias ou opcionais. Se você criar uma nova etapa obrigatória, esta etapa será mostrada a todos os membros para conclusão. </word>
+  <word key="cookies_about_header" js="0">Cookies são pequenos arquivos de texto colocados em seu computador pelos sites que você visita. Eles são amplamente utilizados para fazer os sites funcionarem, ou funcionarem com mais eficiência, bem como para fornecer informações aos proprietários do site. Dependendo do seu nível de acesso e ações no site, vários cookies baseados em preferências podem ser configurados para enriquecer sua experiência. Esses cookies são usados ​​para lembrar suas preferências de tema, idioma e marcação de item, etc. </word>
   <word key="r__member_export_pi" js="0">Pode exportar informações pessoais de membros </word>
   <word key="member_export_pi_title" js="0">Baixe informações pessoais </word>
   <word key="pp_desc_captcha" js="0">Este site usa um CAPTCHA para garantir que os humanos estejam executando certas ações. O provedor CAPTCHA pode definir um cookie de sessão e obter informações sobre seu navegador de Internet e dispositivo que acessa este site.</word>
+  <word key="acp_notification_ConfigurationError_email" js="0">Foi detectado um problema de configuração em sua comunidade que requer sua atenção. </word>
+  <word key="acp_notification_License" js="0">A Licença da Comunidade Invision expira ou irá expirar em breve </word>
   <word key="new_version_email_whatsnew" js="0">Aqui estão as novidades nesta versão:</word>
+  <word key="acp_notification_group_important" js="0">Atualizações da  Invision Community </word>
+  <word key="acp_notification_group_members" js="0">Contas de Membros </word>
+  <word key="acp_notification_bulletin_email" js="0">Uma mensagem importante da Invision Power Services sobre a sua comunidade: </word>
+  <word key="emailstats__notification_report_center" js="0">Notificação do moderador sobre o conteúdo denunciado </word>
   <word key="app_home" js="0">Início</word>
-  <word key="app_activity_posted_item" js="0">{{user}} postado {{article}} </word>
+  <word key="app_activity_posted_item" js="0">{{user}} publicado {{article}} </word>
   <word key="app_tab_home" js="0">Início</word>
   <word key="app_upload_in_progress_desc" js="0">Aguarde até que as imagens carregadas tenham concluído o processamento e envie novamente.</word>
+  <word key="app_started_by_x" js="0">Começado por {{name}} </word>
   <word key="app_notification_group_core" js="0">Geral </word>
   <word key="app_last_week" js="0">Semana Anterior</word>
   <word key="app_all_activity" js="0">Todas as Atividades</word>
-  <word key="app_follow_immediate" js="0">Uma notificação quando um novo conteúdo é postado </word>
+  <word key="app_follow_immediate" js="0">Uma notificação quando um novo conteúdo é publicado </word>
   <word key="app_choose_reason" js="0">O que está errado?</word>
   <word key="mobile_app_splash_get_started" js="0">Iniciar</word>
   <word key="mobile_app_listing_languages" js="0">Idioma(s) </word>
+  <word key="mobile_app_play_url" js="0">URL da Play Store </word>
   <word key="marketplace_error" js="0">Ocorreu um erro ao instalar o recurso, envie um tíquete de suporte para obter mais assistência.</word>
   <word key="marketplace_newest_files" js="0">Novidades</word>
   <word key="marketplace_file_downloads" js="0">Transferências</word>
+  <word key="marketplace_onboard_blurb" js="0">O Invision Community Marketplace agora está disponível em seu AdminCP! Para garantir que tudo funcione corretamente, você precisa identificar quais dos aplicativos, plug-ins, temas e idiomas instalados em sua comunidade vieram do Marketplace. Para cada um, verifique se o resultado mostrado está correto. É importante que esta informação esteja correta para que esses recursos sejam atualizados corretamente e para evitar que o mesmo recurso seja instalado várias vezes</word>
+  <word key="marketplace_onboard_notification" js="0">O Invision Community Marketplace agora está disponível em seu AdminCP! Para garantir que tudo funcione corretamente, você precisa identificar quais dos aplicativos, plug-ins, temas e idiomas instalados em sua comunidade vieram do Marketplace. </word>
+  <word key="marketplace_onboard_themes" js="0">Temas </word>
+  <word key="time_just_now" js="1">Agora mesmo </word>
   <word key="ac_optional" js="1">Escolher </word>
   <word key="whatsNew" js="1">Novidades da Comunidade Invision</word>
   <word key="notificationsDisabled" js="1">Notificações do navegador desativadas</word>
@@ -333,6 +472,8 @@
   <word key="notificationsAllow" js="1">Ativar notificações do navegador</word>
   <word key="notificationsAllowPrompt" js="1">Em breve, seu navegador solicitará que você aceite nossas notificações. Atualize esta página após aceitá-los.</word>
   <word key="warningPunishment_rpa" js="1">ser impedido de postar </word>
+  <word key="markAsReadConfirm" js="1">Tem certeza de que deseja marcar todo o conteúdo da comunidade como lido? </word>
+  <word key="messengerMarkRead" js="1">Marque todas as mensagens em {{folderName}} como lido? </word>
   <word key="streamFilter_stream_include_comments_0" js="1">Apenas itens</word>
   <word key="streamFilter_stream_read_all" js="1"><![CDATA[<em>Tudo</em> ]]></word>
   <word key="streamFilter_stream_follow_all" js="1"><![CDATA[<em>Tudo</em> ]]></word>
@@ -343,20 +484,30 @@
   <word key="emoji-category-activities" js="1">Atividade</word>
   <word key="emoji_skin_tone_default" js="1">Padrão </word>
   <word key="emoji_skin_tone_medium" js="1">Médio </word>
+  <word key="emoji-arrow_down" js="1">Seta para Baixo</word>
+  <word key="emoji-arrow_backward" js="1">Triângulo Apontador Esquerdo </word>
+  <word key="emoji-arrow_double_up" js="1">Triângulo Duplo Apontando para Cima </word>
+  <word key="emoji-arrow_down_small" js="1">Apontando para Baixo Pequeno Triângulo Vermelho</word>
+  <word key="emoji-arrow_double_down" js="1">Triângulo Duplo Apontando para Baixo </word>
   <word key="emoji-white_circle" js="1">Círculo Branco Médio </word>
   <word key="emoji-white_medium_square" js="1">Quadrado Médio Branco </word>
   <word key="emoji-star" js="1">Estrela Média </word>
  </app>
  <app key="forums" version="">
+  <word key="can_move_topic_desc" js="0">Será capaz de mover tópicos/questões apenas entre os fóruns nos quais eles podem criar novos conteúdos. </word>
   <word key="forum_type_qa_desc" js="0">Os usuários podem fazer perguntas para as quais outros usuários podem postar respostas. As respostas podem ser avaliadas por outros usuários e as respostas com maior pontuação são mostradas primeiro.</word>
   <word key="bw_enable_answers_moderator_desc" js="0">Os moderadores podem marcar as postagens como a solução. </word>
   <word key="archiving_blurb" js="0">Se você tiver um site muito grande, pode ser benéfico reduzir o tamanho das postagens de armazenamento da tabela do banco de dados. Arquivar tópicos é uma alternativa à exclusão, o que permite que ainda existam e sejam vistos como normais, mas os move para uma tabela de banco de dados separada. Os tópicos arquivados não podem ser postados ou editados e não serão exibidos nos resultados da pesquisa. Você pode desarquivar tópicos após eles terem sido arquivados, se mudar de ideia. </word>
   <word key="archive_topic_starter" js="0">Começado por</word>
+  <word key="archive_topic_starter_not" js="0">Começado por </word>
+  <word key="archived_topic_missing_posts_admin" js="0">Informações de erro (mostradas apenas para administradores) </word>
+  <word key="mark_forum_read_title" js="0">Marque todos os tópicos neste fórum como lidos </word>
   <word key="questions_i_posted_in" js="0">Perguntas para as quais postei uma resposta</word>
   <word key="forums_topic_list_snippet" js="0">Visualização Expandida: mostra tópicos com uma prévia da postagem</word>
   <word key="forums_topic_list_list" js="0">Visualização Compacta: Mostrar tópicos como uma lista</word>
-  <word key="block_latestTopics_desc" js="0">Mostra os últimos tópicos Postado </word>
+  <word key="block_latestTopics_desc" js="0">Mostra os últimos tópicos publicado </word>
   <word key="app_create_new_topic" js="0">Criar Novo Tópico </word>
+  <word key="markForumAsReadConfirm" js="1">Tem certeza de que deseja marcar todos os tópicos deste fórum como lidos? </word>
  </app>
  <app key="downloads" version="">
   <word key="__app_downloads" js="0">Transferências</word>
@@ -367,9 +518,11 @@
   <word key="editor__downloads_Downloads" js="0">Transferências de Arquivos</word>
   <word key="member_restrictions__downloads_Downloads" js="0">Transferências</word>
   <word key="content_stats__downloads_Downloads" js="0">Transferências</word>
+  <word key="cbitoptions_reviews_download" js="0">Os usuários devem baixar antes de revisar? </word>
   <word key="clog_recount_desc" js="0">Isso redefinirá o número de downloads de cada arquivo nesta categoria para o número de registros atualmente no log. Se você atualizou as configurações de log, precisará salvá-las antes de executar esta ferramenta. Esta ação é irreversível.</word>
   <word key="view_all_files" js="0">Ver todos os Arquivos</word>
   <word key="modperms__core_Content_downloads_File" js="0">Transferências</word>
+  <word key="can_move_downloads_file_desc" js="0">Será capaz de mover arquivos apenas entre as categorias nas quais eles podem criar novo conteúdo. </word>
   <word key="modperms__downloads_Files" js="0">Transferências</word>
   <word key="group__downloads_Downloads" js="0">Transferências</word>
   <word key="submit_a_file" js="0">Envie um arquivo</word>
@@ -397,6 +550,7 @@
   <word key="idm_show_newest" js="0">Mostrar a caixa &quot;Novidades&quot;</word>
   <word key="idm_show_highest_rated" js="0">Mostrar a caixa &quot;Classificação mais alta&quot;</word>
   <word key="idm_show_most_downloaded" js="0">Mostrar a caixa &quot;Mais Baixados&quot;</word>
+  <word key="markCategoryAsReadConfirm" js="1">Tem certeza de que deseja marcar todos os arquivos como lidos? </word>
   <word key="downloadsScreenshotsWatermarkYes" js="1">Sim, Reconstruir</word>
  </app>
  <app key="gallery" version="">
@@ -404,15 +558,24 @@
   <word key="g_create_albums_fo" js="0">Pode criar álbuns de acesso restrito? </word>
   <word key="g_create_albums_fo_desc" js="0">Os álbuns de acesso restrito são álbuns que apenas o criador e os usuários designados podem ver </word>
   <word key="g_download_original_desc" js="0">Os usuários ainda poderão baixar a imagem em tamanho grande por meio do navegador</word>
+  <word key="can_move_gallery_image_desc" js="0">Será capaz de mover imagens apenas entre as categorias nas quais podem criar novos conteúdos. </word>
+  <word key="can_move_gallery_album_desc" js="0">Será capaz de mover álbuns apenas entre as categorias nas quais eles podem criar novo conteúdo. </word>
   <word key="submit_all_images" js="0">Envie todas as imagens</word>
   <word key="sort_album_rating_aggregate" js="0">Classificação mais alta</word>
+  <word key="album_created_by" js="0">Álbum criado por </word>
   <word key="album_everything_seen" js="0">Você viu tudo neste álbum</word>
   <word key="album_create_owner" js="0">Propriedade</word>
+  <word key="album_create_privacy" js="0">Privacidade </word>
+  <word key="album_create_features" js="0">Recursos do Álbum </word>
   <word key="unsaved_image_data" js="1">Você não salvou suas alterações para esta imagem. Tem certeza que deseja trocar de imagem? </word>
  </app>
  <app key="blog" version="">
+  <word key="task__blogrssimport" js="0">Verifica feeds RSS/Atom para novos artigos e importa para blogs. </word>
+  <word key="blog_groupblog_name_desc" js="0">Usado no lugar do nome do proprietário ao visualizar um Blog do Grupo. </word>
   <word key="no_entries_yet" js="0">Ainda não há entradas de blog</word>
+  <word key="blog_category_viewing" js="0">Visualizando categoria %s </word>
   <word key="blog_last_entry_date" js="0">Última entrada postada %s  </word>
+  <word key="loc_blog_viewing_blog" js="0">Visualizando blog: %s </word>
   <word key="can_move_blog_entry_desc" js="0">Será capaz de mover entradas apenas entre os blogs nos quais eles podem criar novo conteúdo. </word>
   <word key="__api_blog_comments" js="0">Comentários</word>
   <word key="blog_create_category" js="0">Criar Nova Categoria </word>
@@ -423,14 +586,40 @@
   <word key="_convert_settings" js="0">Configurações </word>
   <word key="step_title" js="0">Passo </word>
   <word key="_convert_profile_fields" js="0">Campos de Perfil </word>
+  <word key="_convert_private_messages" js="0">Mensagens Privadas </word>
+  <word key="_convert_private_message_replies" js="0">Respostas de mensagens privadas </word>
   <word key="_convert_moderators" js="0">Moderadores </word>
+  <word key="_convert_calendar_calendars" js="0">Calendários</word>
+  <word key="_convert_cms_pages" js="0">Páginas </word>
+  <word key="club_photo_location_desc" js="0">Se as fotos do clube estão atualmente armazenadas no banco de dados, selecione 'Banco de dados', caso contrário, selecione 'Sistema de arquivos' e digite o caminho absoluto para as fotos do clube na caixa de texto fornecida. </word>
   <word key="convert_nexus_payment_methods" js="0">Converter métodos de pagamento </word>
  </app>
  <app key="cms" version="">
+  <word key="__app_cms" js="0">Páginas </word>
+  <word key="menutab__cms" js="0">Páginas </word>
+  <word key="cms_pages_pageitem_pl" js="0">Páginas </word>
+  <word key="cms_page_pl_lc" js="0">páginas </word>
+  <word key="cms_page_pl" js="0">Páginas </word>
+  <word key="sitemap_cms_Pages" js="0">Páginas </word>
+  <word key="can_move_record_desc" js="0">Será capaz de se mover apenas entre as categorias nas quais podem criar novos conteúdos. </word>
+  <word key="r__pages" js="0">Páginas </word>
+  <word key="menu__cms_pages_pages" js="0">Páginas </word>
+  <word key="module__cms_pages" js="0">Páginas </word>
   <word key="content_block_template_use_default" js="0">Modelo padrão </word>
   <word key="cms_block_form_display" js="0">Modelos </word>
+  <word key="cms_new_db_template_group_featured" js="0">Registros em destaque (primeira página ao visualizar um banco de dados definido para mostrar os artigos em destaque) </word>
+  <word key="cms_theme_designer_mode_warning" js="0"><![CDATA[A edição do tema está atualmente indisponível no ACP, pois o modo de designers está ativado.<br /><a href='%s'>Desligue o modo de designers.</a> ]]></word>
   <word key="cms_templates_export_title" js="0">Baixar Modelos </word>
+  <word key="templates_page" js="0">Páginas </word>
+  <word key="cms_theme_template_custom" js="0">Modelos Personalizados </word>
+  <word key="cms_theme_template_default" js="0">Modelos Padrão </word>
   <word key="content_default_error_page" js="0">Tornar a página de erro padrão </word>
+  <word key="page_theme" js="0">Tema </word>
+  <word key="page_theme_desc" js="0">Selecione qual tema usar para esta página. O tema é usado para widgets padrão e o modelo global. </word>
+  <word key="cms_page_theme_id_default" js="0">Tema Padrão </word>
+  <word key="cms_tag_pages" js="0">Páginas </word>
+  <word key="cms_articles_homepage_form" js="0">Opções da Página Inicial </word>
+  <word key="add_word_reason_pages" js="0">As frases que você cria aqui podem ser usadas em páginas HTML personalizadas e modelos de tema para fornecer conteúdo em diferentes idiomas. </word>
   <word key="content_database_manage_permissions" js="0">Permissões </word>
   <word key="content_database_form_lang" js="0">Idioma</word>
   <word key="database_comment_bump_desc" js="0">A última ação mostra na visão de categoria e é como os itens são classificados por padrão / podem ser usados ​​para classificar itens. Observe que o ajuste dessa configuração não é retroativo e só se aplicará a comentários feitos ou registros editados posteriormente. </word>
@@ -438,12 +627,28 @@
   <word key="cms_database_add_new" js="0">Criar Novo Nanco de Dados </word>
   <word key="cms_database_permissions" js="0">Permissões de Banco de Dados </word>
   <word key="cms_database_form_display" js="0">Modelos </word>
+  <word key="block_LatestArticles" js="0">Últimos Registros </word>
+  <word key="block_LatestArticles_desc" js="0">Mostrar os artigos mais recentes de um banco de dados </word>
  </app>
  <app key="calendar" version="">
+  <word key="__app_calendar" js="0">Calendário </word>
+  <word key="calendar_event_container" js="0">calendário </word>
+  <word key="acp_search_title_calendar_Calendars" js="0">Calendários</word>
+  <word key="calendars" js="0">Calendários </word>
+  <word key="calendars_sg" js="0">Calendário </word>
   <word key="calendar_permissions" js="0">Permissões </word>
+  <word key="calendar_calendars" js="0">Calendários </word>
   <word key="can_move_calendar_event_desc" js="0">Será capaz de mover eventos apenas entre os calendários nos quais eles podem criar novos conteúdos. </word>
   <word key="submit_event" js="0">Envie um evento</word>
+  <word key="calendar_jump_today" js="0">Vá para o dia de hoje </word>
+  <word key="jump_to_placeholder" js="0">Ir para para...</word>
+  <word key="jump_to" js="0">Ir para para </word>
+  <word key="subscribe_webcal" js="0">Inscreva-se no feed do iCalendar </word>
+  <word key="download_webcal" js="0">Baixar exportação iCalendar </word>
+  <word key="calendar_id" js="0">Calendário</word>
   <word key="x_created_event_in" js="0">%s postou um evento em %s </word>
+  <word key="__api_calendar_events" js="0">Eventos </word>
+  <word key="__api_calendar_comments" js="0">Comentários </word>
   <word key="__api_calendar_calendars" js="0">Calendários</word>
  </app>
  <app key="nexus" version="">
@@ -456,6 +661,9 @@
   <word key="stripe_type_header" js="0">Forma de pagamento </word>
   <word key="stripe_type_native" js="0">Recursos do navegador (Apple Pay / Google Pay)</word>
   <word key="stripe_type_desc" js="0">Para permitir que os usuários escolham, configure vários métodos de pagamento Stripe. </word>
+  <word key="authorizenet_AIM_desc" js="0">Os detalhes do cartão são enviados para Authorize.Net por meio de uma API. Necessário para permitir que os detalhes do cartão sejam armazenados. </word>
+  <word key="authorizenet_DPM_desc" js="0">Os detalhes do cartão são postados diretamente nos servidores da Authorize.Net e nunca são processados ​​por seu servidor. Recomendado se você não quiser permitir que os detalhes do cartão sejam armazenados. </word>
+  <word key="authorizenet_cim" js="0">Permitir que os usuários armazenem detalhes do cartão? </word>
   <word key="authorizenet_cim_desc" js="0">Usa o gerenciador de informações do cliente (CIM). Os detalhes do cartão são armazenados nos servidores da Authorize.Net, não nos seus.</word>
   <word key="gateway__Braintree_desc" js="0"><![CDATA[Requer processo de inscrição abrangente <a href='{external.braintree_doc}'>Mais Informações</a> ]]></word>
   <word key="braintree_type_header" js="0">Forma de pagamento </word>
@@ -470,6 +678,7 @@
   <word key="currency_code" js="0">Código da Moeda </word>
   <word key="currency_code_invalid" js="0">%s não é um código de moeda padrão. </word>
   <word key="currency_default" js="0">Padrão? </word>
+  <word key="cm_invoice_expireafter_desc" js="0">Quando um cliente faz um pedido na loja, ou uma compra que ele comprou anteriormente está prestes a expirar, uma fatura é gerada. Você pode querer definir um limite de tempo para o cliente pagar a fatura para que, se você alterar o preço de um produto em sua loja, um cliente com uma fatura antiga não possa pagar a fatura antiga com o preço antigo, ou então os clientes não podem renovar compras expiradas anteriormente. </word>
   <word key="billing_agreement_error_public" js="0">A ação solicitada não pôde ser executada. Por favor, entre em contato conosco para mais </word>
   <word key="maxmind_gateways" js="0">Métodos de Pagamento </word>
   <word key="card_information_invalid" js="0">As informações do cartão fornecidas não eram válidas ou o cartão expirou. Verifique as informações inseridas ou entre em contato conosco para obter mais assistência.</word>
@@ -494,6 +703,7 @@
   <word key="task__sendInvoiceWarnings" js="0">Envia um aviso aos clientes que terão faturas de renovação geradas em breve e têm formas de pagamento registradas que serão cobradas automaticamente. </word>
   <word key="r_stream" js="0">Mostrar</word>
   <word key="ie_piping_cpanel_4" js="0">Clique em 'Opções Avançadas' </word>
+  <word key="r_started" js="0">Começado </word>
   <word key="support_honor_severity_sort" js="0">Honrar a ordem de severidade na classificação</word>
   <word key="support_no_honor_severity_sort" js="0">Ignorar severidades na classificação</word>
   <word key="your_message" js="0">Sua Mensagem</word>
@@ -501,12 +711,14 @@
   <word key="support_bounced" js="0">A solicitação de suporte que você respondeu foi marcada como resolvida e, portanto, sua mensagem não pôde ser processada.</word>
   <word key="customer_last_name" js="0">Sobrenome do Cliente</word>
   <word key="menu__nexus_store" js="0">Loja </word>
+  <word key="menu__nexus_store_packages" js="0">Produtos </word>
   <word key="package_discounts" js="0">Desconto </word>
   <word key="package_store" js="0">Configurações da Loja </word>
   <word key="p_support_desc" js="0">Isso vinculará o cliente ao formulário para enviar uma solicitação de suporte com a compra selecionada como a compra associada.</word>
   <word key="p_methods" js="0">Métodos de Pagamento </word>
   <word key="p_methods_desc" js="0">Os clientes só poderão pagar por este produto e renovações com os métodos de pagamento selecionados. Observe que, se dois produtos não tiverem métodos comuns disponíveis, os clientes não poderão comprá-los juntos. </word>
   <word key="subscription_delete_blurb" js="0">Existem assinantes deste plano. Se você excluí-lo, os usuários ainda serão cobrados, mas não serão movidos de volta ao grupo original se permitirem que a assinatura expire. </word>
+  <word key="cf_invoice_desc" js="0">Se definido como Não, este campo não será exibido nas faturas. O campo ainda será exibido ao visualizar a compra real. </word>
   <word key="gift_voucher_message" js="0">Sua Mensagem</word>
   <word key="browse_store" js="0">Navegar na Loja</word>
   <word key="store_settings" js="0">Configurações da Loja </word>
@@ -528,6 +740,7 @@
   <word key="purchases_title" js="0">Gerenciar suas Compras</word>
   <word key="purchases_none" js="0">Você ainda não tem compras que possam ser gerenciadas</word>
   <word key="customerinfo_title" js="0">Informação do Cliente</word>
+  <word key="menu__nexus_store_coupons" js="0">Cupons </word>
   <word key="c_code_desc" js="0">Isso é o que o cliente irá inserir na finalização da compra. </word>
   <word key="c_unit_v" js="0">Retire um valor específico do subtotal. </word>
   <word key="c_unit_desc" js="0">Os cupons são aplicados antes de impostos e despesas de envio. </word>
@@ -539,9 +752,12 @@
   <word key="advertisement_image_max_wh" js="0">A imagem deve ser menor que %s×%spx. Imagens maiores serão redimensionadas.</word>
   <word key="advertisement_image_max_w" js="0">A imagem deve ter A imagem deve ter menos de %spx de largura. Imagens maiores serão redimensionadas.</word>
   <word key="advertisement_image_max_h" js="0">A imagem deve ter menos de %spx de altura. Imagens maiores serão redimensionadas. </word>
+  <word key="email_commission_info_no_payout" js="0">Você pode usar este crédito para compras ou renovações em nossa loja. </word>
+  <word key="email_commission_info_payout" js="0">Você pode usar este crédito para compras ou renovações em nossa loja, ou solicitar um saque. </word>
   <word key="email_card_on_file" js="0">Forma de pagamento </word>
   <word key="log_type_title_info" js="0">Mudanças nas informações do cliente</word>
   <word key="log_type_title_subscription" js="0">Assinaturas </word>
+  <word key="a_product_in_our_store" js="0">Um produto em nossa loja </word>
   <word key="menu__nexus_subscriptions" js="0">Assinaturas </word>
   <word key="menu__nexus_subscriptions_subscriptions" js="0">Planos de Assinatura </word>
   <word key="menu__nexus_subscriptions_subscribers" js="0">Assinantes </word>
@@ -550,6 +766,7 @@
   <word key="r__subscribers_manage" js="0">Pode gerenciar assinantes?</word>
   <word key="sp_enabled_desc" js="0">Mesmo se desativado, os usuários que já adquiriram este plano ainda terão todos os benefícios concedidos a eles ao adquirir e poderão renovar; no entanto, os usuários que adquiriram outros planos de assinatura não poderão fazer upgrade/downgrade para este plano.</word>
   <word key="sp_gateways" js="0">Métodos de Pagamento </word>
+  <word key="nexus_subs_add_member_already_subscribed" js="0">Este membro já tem uma inscrição ativa </word>
   <word key="nexus_subs_off_text" js="0"><![CDATA[As assinaturas são uma maneira simples de cobrar por ser movido para um grupo de usuários diferente.<br><br>Cada membro pode ter apenas uma assinatura ativa, mas pode fazer upgrade ou downgrade entre os diferentes planos que você configurou. ]]></word>
   <word key="nexus_sub_start" js="0">Começado</word>
   <word key="nexus_cm_last_name" js="0">Sobrenome</word>
@@ -557,5 +774,6 @@
   <word key="module__nexus_subscriptions" js="0">Assinaturas </word>
   <word key="nexus_front_subscriptions" js="0">Assinaturas </word>
   <word key="nexus_subs_show_all_subs" js="0">Veja todos os planos de assinatura </word>
+  <word key="acp_notification_nexus_bacancelerror_desc" js="0">Um método de pagamento do PayPal foi excluído recentemente, exigindo o cancelamento das assinaturas do PayPal associadas. No entanto, foi encontrado um erro ao tentar cancelar algumas ou todas as assinaturas. Um administrador precisará fazer login na conta do PayPal e cancelar manualmente as seguintes assinaturas. Caso contrário, os pagamentos continuarão a ser retirados do usuário; no entanto, sua comunidade não conseguirá processar o pagamento e não dará aos usuários pagantes quaisquer benefícios de compra. </word>
  </app>
 </language>
