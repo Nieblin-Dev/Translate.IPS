@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.dev" version="1.0.2-5" long_version="1025" update_check="https://nieblin.com/ips/br/changelog">
+<language name="Português(BR)" rtl="0" author_name="AdminZero" author_url="https://nieblin.dev" version="1.0.2-6" long_version="1026" update_check="https://nieblin.com/ips/br/changelog">
  <app key="core" version="">
   <word key="__app_core" js="0">Sistema </word>
+  <word key="__nulling_null_alert" js="0">Esta distribuição é Nulled! Você não pode usar esta função. </word>
   <word key="__indefart_personal_conversation_message" js="0">uma mensagem em uma conversa pessoal </word>
+  <word key="__defart_personal_conversation" js="0">conversa pessoal </word>
   <word key="__defart_personal_conversation_message" js="0">mensagem em uma conversa pessoal </word>
+  <word key="__defart_report" js="0">relatório </word>
+  <word key="__defart_report_comment" js="0">comentar sobre um relatório </word>
+  <word key="__defart_member_status" js="0">atualização de status </word>
   <word key="embed_posted_item" js="0">%s postou um item em %s </word>
+  <word key="_defart_from_date" js="0"><![CDATA[<a href='%s'>%s</a> de %s  ]]></word>
   <word key="add_menu_sep_short" js="0">Adicionar Separador </word>
   <word key="menu_manager_revert" js="0">Restaurar Configuração Padrão </word>
   <word key="menu_manager_access_type" js="0">Permissões </word>
@@ -78,6 +84,7 @@
   <word key="default_no_parenthesis" js="0">Padrão </word>
   <word key="reg_start_faster" js="0">Comece mais rápido </word>
   <word key="coppa_form_phone" js="0">Número de Telefone: </word>
+  <word key="_list_format_" js="0">a, b e c </word>
   <word key="add" js="0">Crie um Novo </word>
   <word key="site" js="0">Visite o Site </word>
   <word key="permissions" js="0">Permissões </word>
@@ -88,8 +95,11 @@
   <word key="acplogs__datastore_updated" js="0">Configuração de cache atualizada </word>
   <word key="acplogs__datastore_settings_updated" js="0">Configuração de cache atualizada </word>
   <word key="whats_new_link" js="0">Novidades</word>
+  <word key="_comment_placeholder" js="0">Adicione um comentário... </word>
   <word key="date_started" js="0">Postado %s </word>
   <word key="nothing_to_show" js="0">Nada para mostrar </word>
+  <word key="_date_yesterday_c" js="0">Ontem às %s  </word>
+  <word key="_date_yesterday" js="0">ontem às %s  </word>
   <word key="_date_just_now_c" js="0">Agora mesmo </word>
   <word key="_date_just_now" js="0">Agora mesmo </word>
   <word key="date_replied" js="0">Postado %s </word>
@@ -97,6 +107,12 @@
   <word key="medium" js="0">Médio </word>
   <word key="restricted" js="0">Restrito </word>
   <word key="unrestricted" js="0">Irrestrito </word>
+  <word key="_split_type" js="0">Dividido em </word>
+  <word key="_split_into_url" js="0">URL </word>
+  <word key="401_error_title" js="0">Desculpe, há um problema </word>
+  <word key="403_error_title" js="0">Desculpe, você não tem permissão para isso! </word>
+  <word key="404_error_title" js="0">Desculpe, não conseguimos encontrar isso! </word>
+  <word key="500_error_title" js="0">Ocorreu um erro de configuração ou servidor </word>
   <word key="admin_csrf_error" js="0">A chave de proteção CSRF não coincidiu. Isso pode indicar que um plugin ou tema está desatualizado. Entre em contato com o suporte técnico para obter mais informações. </word>
   <word key="next_unread_not_found" js="0">Não há itens de conteúdo não lidos.</word>
   <word key="acplog__node_created" js="0">Criado %s - %s </word>
@@ -121,10 +137,14 @@
   <word key="ext__MemberExportPersonalInformation" js="0">Adicione dados adicionais ao arquivo XML de informações pessoais. </word>
   <word key="task__rssimport" js="0">Verifica feeds RSS/Atom em busca de novos artigos e os importa. </word>
   <word key="login_profile" js="0">Sugerir para conclusão do Perfil? </word>
+  <word key="account_management_email_pass" js="0">Alterações de E-mail e Senha </word>
   <word key="account_management_email_pass_blurb" js="0">Você não precisará alterar essas configurações, a menos que sua comunidade use principalmente um método de login que gerencia os dados da conta, como um banco de dados MySQL externo ou LDAP. </word>
   <word key="oauth_wordpress_map_name" js="0">Primeiro Nome </word>
   <word key="members_filter_administrators" js="0">Administradores </word>
   <word key="member_content_items" js="0">Itens de Conteúdo</word>
+  <word key="account_unlocked" js="0">Conta Desbloqueada. </word>
+  <word key="account_flagged" js="0">Sinalizado como Spammer. </word>
+  <word key="account_unflagged" js="0">Sinalizador de Spammer removido. </word>
   <word key="stats_onlineusers_title" js="0">Usuários online por período de tempo </word>
   <word key="acplog__statsonlineusers_settings" js="0">Configurações ajustadas de remoção de estatísticas de usuário online </word>
   <word key="member_reset_theme" js="0">Temas</word>
@@ -132,6 +152,11 @@
   <word key="device_other_members_info" js="0">Esta tabela mostra outros membros que também fizeram login com este dispositivo. Isso pode indicar que todas as contas pertencem à mesma pessoa, mas também pode significar que pessoas diferentes compartilham um computador ou que é um computador público. Observe que os usuários podem evitar essa detecção limpando os cookies em seus navegadores da web ou usando os recursos de privacidade de seus navegadores; portanto, esses resultados podem não ser completos.</word>
   <word key="device_table_user_agent" js="0">Navegador</word>
   <word key="account_banned_group" js="0">O membro está em um grupo que não tem permissão para acessar a comunidade. </word>
+  <word key="account_flagged_as_spammer_title" js="0">Sinalizado como spammer </word>
+  <word key="account_flagged_as_spammer" js="0">Esta conta foi sinalizada como spammer por um membro da equipe. </word>
+  <word key="account_locked_title" js="0">Conta bloqueada </word>
+  <word key="account_locked_logins" js="0">Conta bloqueada devido a muitos logins com falha. </word>
+  <word key="account_locked_2fa" js="0">Conta bloqueada devido a muitas tentativas de autenticação de dois fatores com falha. </word>
   <word key="club_ownership" js="0">Propriedade do clube</word>
   <word key="report_count_desc" js="0">Se houver relatórios abertos, o ícone Conteúdo relatado no cabeçalho da página terá um emblema mostrando quantos. </word>
   <word key="report_count_lc" js="0">selo de conteúdo relatado</word>
@@ -306,6 +331,7 @@
   <word key="ad_image_medium" js="0">Imagem Média </word>
   <word key="ad_image_medium_desc" js="0">Esta imagem será exibida para usuários que visitam a partir de dispositivos como tablets, que são maiores do que telefones, mas menores do que a maioria dos navegadores, se fornecidos</word>
   <word key="add_advertisement" js="0">Criar novo anúncio</word>
+  <word key="_ad_custom_" js="0">Defina seus próprios locais </word>
   <word key="ad_promo_msg" js="0">
 Adicione o Commerce to Invision Community para obter recursos adicionais de propaganda, incluindo a capacidade de vender espaço publicitário diretamente para seus membros por meio de um sistema de autoatendimento. </word>
   <word key="change_password_admin_4" js="0">Selecione 'Alterar Meus Dados'</word>
@@ -441,6 +467,13 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="r__member_export_pi" js="0">Pode exportar informações pessoais de membros </word>
   <word key="member_export_pi_title" js="0">Baixe informações pessoais </word>
   <word key="pp_desc_captcha" js="0">Este site usa um CAPTCHA para garantir que os humanos estejam executando certas ações. O provedor CAPTCHA pode definir um cookie de sessão e obter informações sobre seu navegador de Internet e dispositivo que acessa este site.</word>
+  <word key="acp_notifications_view" js="0">Mostrar na sua central de notificação? </word>
+  <word key="acp_notifications_email" js="0">Receber notificação por email? </word>
+  <word key="acp_notifications_email_never" js="0">Não </word>
+  <word key="acp_notifications_email_once" js="0">Sim - uma vez até ser endereçado </word>
+  <word key="acp_notifications_email_yes" js="0">Sim </word>
+  <word key="acp_notifications_email_configure" js="0">Configurar </word>
+  <word key="acp_notifications_settings_blurb" js="0">Essas configurações se aplicam apenas à sua conta, portanto, outros administradores ainda poderão ver as notificações que você ocultou. </word>
   <word key="acp_notification_ConfigurationError_email" js="0">Foi detectado um problema de configuração em sua comunidade que requer sua atenção. </word>
   <word key="acp_notification_License" js="0">A Licença da Comunidade Invision expira ou irá expirar em breve </word>
   <word key="new_version_email_whatsnew" js="0">Aqui estão as novidades nesta versão:</word>
@@ -467,7 +500,36 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="marketplace_onboard_blurb" js="0">O Invision Community Marketplace agora está disponível em seu AdminCP! Para garantir que tudo funcione corretamente, você precisa identificar quais dos aplicativos, plug-ins, temas e idiomas instalados em sua comunidade vieram do Marketplace. Para cada um, verifique se o resultado mostrado está correto. É importante que esta informação esteja correta para que esses recursos sejam atualizados corretamente e para evitar que o mesmo recurso seja instalado várias vezes</word>
   <word key="marketplace_onboard_notification" js="0">O Invision Community Marketplace agora está disponível em seu AdminCP! Para garantir que tudo funcione corretamente, você precisa identificar quais dos aplicativos, plug-ins, temas e idiomas instalados em sua comunidade vieram do Marketplace. </word>
   <word key="marketplace_onboard_themes" js="0">Temas </word>
+  <word key="achievement_desc" js="0">As regras são acionadas sempre que a ação especificada acontece e podem conceder pontos e/ ou emblemas. </word>
+  <word key="achievement_filter_NewContentItem_type" js="0">Adicionar uma condição de localização </word>
+  <word key="achievement_filter_NewContentItem_type_prefix" js="0">É um </word>
+  <word key="achievement_filter_NewContentItem_nth" js="0">Adicionar uma condição de marco </word>
+  <word key="achievement_filter_NewClub_nth" js="0">Adicionar uma condição de marco </word>
+  <word key="achievement_filter_FollowMember_receiver" js="0">Para o usuário que foi seguido </word>
+  <word key="achievement_filter_JoinClub_joiner" js="0">Para o usuário que aderiu ao clube </word>
+  <word key="achievement_filter_JoinClub_owner" js="0">Para o dono do clube </word>
+  <word key="achievement_filter_JoinClub_nth" js="0">Adicionar uma condição de marco </word>
+  <word key="achievement_filter_Node_nth" js="0">Adicionar uma condição de marco </word>
+  <word key="achievement_filter_NewPoll_nth" js="0">Adicionar uma condição de marco </word>
+  <word key="AchievementAction__ContentPromotion" js="0">O item de conteúdo (item/comentário) é promovido </word>
+  <word key="acp_points_log_manual" js="0">Ajuste manual </word>
+  <word key="acp_points_log_table_action_log" js="0">Açao </word>
+  <word key="acp_points_log_table_datetime" js="0">Data </word>
+  <word key="acp_badge_manual" js="0">Concedido Manualmente </word>
+  <word key="acp_badge_cannot_delete" js="0">Não é possível excluir a regra distintivos premiados </word>
+  <word key="acp_achievements_import" js="0">Importar </word>
+  <word key="acp_achievements_import_error" js="0">Você precisa confirmar que deseja remover todas as classificações existentes antes de importar. </word>
+  <word key="acp_achievements_import_xml" js="0">Arquivo XML </word>
+  <word key="acp_achievements_import_option" js="0">Tipo de importação </word>
+  <word key="acp_achievements_import_option_wipe" js="0">Remova todas as classificações primeiro </word>
+  <word key="acp_achievements_import_option_wipe_sure" js="0">Tem certeza? </word>
+  <word key="acp_achievements_import_option_wipe_desc" js="0">Remova todas as classificações existentes e adicione as classificações contidas nesta importação </word>
+  <word key="acp_achievements_import_rules_message" js="0">Importe todas as regras e todos as medalhas atribuídos por um marco de regra. </word>
+  <word key="acp_achievements_import_option_badge_wipe_desc" js="0">Remova todos as medalhas não atribuídos a uma regra antes de importar.</word>
+  <word key="acp_achievements_rebuild_not_checked" js="0">Por favor, marque a caixa de confirmação antes de enviar esta reconstrução </word>
   <word key="time_just_now" js="1">Agora mesmo </word>
+  <word key="ac_max_length" js="1">Comprimento máximo é {{len}}  </word>
+  <word key="ac_dupes" js="1">Duplicatas não permitidas </word>
   <word key="ac_optional" js="1">Escolher </word>
   <word key="whatsNew" js="1">Novidades da Comunidade Invision</word>
   <word key="notificationsDisabled" js="1">Notificações do navegador desativadas</word>
@@ -500,6 +562,7 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
  </app>
  <app key="forums" version="">
   <word key="__app_forums" js="0">Fóruns </word>
+  <word key="__defart_question" js="0">pergunta </word>
   <word key="can_move_topic_desc" js="0">Será capaz de mover tópicos/questões apenas entre os fóruns nos quais eles podem criar novos conteúdos. </word>
   <word key="forum_type_qa_desc" js="0">Os usuários podem fazer perguntas para as quais outros usuários podem postar respostas. As respostas podem ser avaliadas por outros usuários e as respostas com maior pontuação são mostradas primeiro.</word>
   <word key="bw_enable_answers_moderator_desc" js="0">Os moderadores podem marcar as postagens como a solução. </word>
@@ -513,14 +576,19 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="forums_topic_list_list" js="0">Visualização Compacta: Mostrar tópicos como uma lista</word>
   <word key="block_latestTopics_desc" js="0">Mostra os últimos tópicos Postado </word>
   <word key="__api_forums_posts" js="0">Postagens </word>
+  <word key="__api_forums_topics" js="0">Tópicos </word>
   <word key="__api_forums_forums" js="0">Fóruns </word>
+  <word key="404_forums_topic" js="0">Não foi possível encontrar esse tópico. </word>
+  <word key="403_forums_topic" js="0">Você não tem permissão para visualizar este tópico. </word>
   <word key="app_create_new_topic" js="0">Criar Novo Tópico </word>
   <word key="markForumAsReadConfirm" js="1">Tem certeza de que deseja marcar todos os tópicos deste fórum como lidos? </word>
  </app>
  <app key="blog" version="">
+  <word key="__app_blog" js="0">Blogs </word>
   <word key="task__blogrssimport" js="0">Verifica feeds RSS/Atom para novos artigos e importa para blogs. </word>
   <word key="blog_groupblog_name_desc" js="0">Usado no lugar do nome do proprietário ao visualizar um Blog do Grupo. </word>
   <word key="no_entries_yet" js="0">Ainda não há entradas de blog</word>
+  <word key="about_this_blog" js="0">Sobre este blog </word>
   <word key="blog_category_viewing" js="0">Visualizando categoria %s </word>
   <word key="blog_last_entry_date" js="0">Última entrada postada %s  </word>
   <word key="loc_blog_viewing_blog" js="0">Visualizando blog: %s </word>
@@ -533,6 +601,8 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
  </app>
  <app key="gallery" version="">
   <word key="__app_gallery" js="0">Galeria</word>
+  <word key="__defart_gallery_image_review" js="0">comentário em uma imagem de galeria </word>
+  <word key="__defart_gallery_image_review_plural" js="0">{!#[1:review][?:reviews]} em uma imagem de galeria </word>
   <word key="g_create_albums_fo" js="0">Pode criar álbuns de acesso restrito? </word>
   <word key="g_create_albums_fo_desc" js="0">Os álbuns de acesso restrito são álbuns que apenas o criador e os usuários designados podem ver </word>
   <word key="g_download_original_desc" js="0">Os usuários ainda poderão baixar a imagem em tamanho grande por meio do navegador</word>
@@ -546,6 +616,8 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="album_create_privacy" js="0">Privacidade </word>
   <word key="album_create_features" js="0">Recursos do Álbum </word>
   <word key="__api_gallery_albums" js="0">Álbuns </word>
+  <word key="__api_gallery_images" js="0">Imagens </word>
+  <word key="__api_gallery_comments" js="0">Comentários </word>
   <word key="__api_gallery_categories" js="0">Categorias </word>
   <word key="unsaved_image_data" js="1">Você não salvou suas alterações para esta imagem. Tem certeza que deseja trocar de imagem? </word>
  </app>
@@ -575,11 +647,14 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="new_library_not_in_dev" js="0">Você só pode criar novas bibliotecas enquanto IN_DEV. </word>
   <word key="_convert_settings" js="0">Configurações </word>
   <word key="step_title" js="0">Passo </word>
+  <word key="_convert_achievement_ranks" js="0">Classificações de Conquista </word>
   <word key="_convert_custom_bbcode" js="0">BBCode  Personalizado </word>
   <word key="_convert_profile_fields" js="0">Campos de Perfil </word>
+  <word key="_convert_announcements" js="0">Anúncios </word>
   <word key="_convert_private_messages" js="0">Mensagens Privadas </word>
   <word key="_convert_private_message_replies" js="0">Respostas de mensagens privadas </word>
   <word key="_convert_moderators" js="0">Moderadores </word>
+  <word key="_convert_attachments" js="0">Anexos </word>
   <word key="_convert_calendar_calendars" js="0">Calendários</word>
   <word key="_convert_cms_pages" js="0">Páginas </word>
   <word key="_convert_cms_attachments" js="0">Anexos de Banco de Dados </word>
@@ -674,9 +749,11 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="downloadsScreenshotsWatermarkYes" js="1">Sim, Reconstruir</word>
  </app>
  <app key="nexus" version="">
+  <word key="__app_nexus" js="0">Comércio </word>
   <word key="menu__nexus_stock" js="0">Configurações da Loja </word>
   <word key="default_menu_item_support" js="0">Suporte </word>
   <word key="default_menu_item_my_details" js="0">Meus Dados</word>
+  <word key="__defart_product" js="0">produtos </word>
   <word key="menu__nexus_stock_gateways" js="0">Métodos de Pagamento </word>
   <word key="payment_methods" js="0">Métodos de Pagamento </word>
   <word key="gateways_gateway" js="0">Forma de pagamento </word>
@@ -707,6 +784,8 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="card_requires_js" js="0">Habilite o JavaScript em seu navegador para continuar.</word>
   <word key="cm_first_name" js="0">Primeiro Nome </word>
   <word key="cm_last_name" js="0">Sobrenome</word>
+  <word key="account_credit_with_amount" js="0">Crédito da Conta (%s) </word>
+  <word key="account_information" js="0">Informação da Conta </word>
   <word key="err_no_methods_admin" js="0">Não existem métodos de pagamento disponíveis. Isso pode acontecer se, por exemplo, você tiver dois produtos que estão configurados para só poderem ser pagos por dois métodos de pagamento diferentes e você tentar comprá-los juntos. Ou, se você restringir os métodos de pagamento para estarem disponíveis apenas em alguns países e não houver métodos de pagamento disponíveis para este endereço de cobrança. </word>
   <word key="split_payment_title" js="0">Pague por este pedido usando vários métodos de pagamento </word>
   <word key="f_blurb_maxmind_phone_match_n" js="0">O número de telefone não corresponde ao código postal do endereço de cobrança</word>
@@ -714,13 +793,18 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="customerTable_cm_last_name" js="0">Sobrenome</word>
   <word key="customerTable_cm_phone" js="0">Número de Telefone </word>
   <word key="card_gateway" js="0">Forma de pagamento </word>
+  <word key="account_credit_remove_neg" js="0">Isso tornará o crédito da conta negativo. </word>
+  <word key="account_credit_return" js="0"> %s o crédito da conta será devolvido para %s.  </word>
   <word key="altcontact_member_admin" js="0">Contato Alternativo </word>
   <word key="altcontact_member_admin_self" js="0">Você não pode adicionar o membro como um contato alternativo para sua própria conta. </word>
   <word key="customer_information" js="0">Informação do Cliente</word>
+  <word key="above_average" js="0">Acima da média </word>
+  <word key="account_items" js="0">Itens da Conta </word>
   <word key="edit_customer_info" js="0">Editar informações do cliente</word>
   <word key="alt_contact_for" js="0">Contato alternativo para </word>
   <word key="customer_tab_cards" js="0">Métodos de pagamento armazenados </word>
   <word key="purchase_customer_info" js="0">Informação do Cliente</word>
+  <word key="account_credit_settings" js="0">Configurações de Crédito da Conta </word>
   <word key="po_gateway" js="0">Forma de pagamento </word>
   <word key="task__sendInvoiceWarnings" js="0">Envia um aviso aos clientes que terão faturas de renovação geradas em breve e têm formas de pagamento registradas que serão cobradas automaticamente. </word>
   <word key="r_stream" js="0">Mostrar</word>
@@ -743,6 +827,7 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="cf_invoice_desc" js="0">Se definido como Não, este campo não será exibido nas faturas. O campo ainda será exibido ao visualizar a compra real. </word>
   <word key="gift_voucher_message" js="0">Sua Mensagem</word>
   <word key="browse_store" js="0">Navegar na Loja</word>
+  <word key="about_product" js="0"><![CDATA[Sobre <em>%s</em> ]]></word>
   <word key="store_settings" js="0">Configurações da Loja </word>
   <word key="nexus_show_tax" js="0">Incluir imposto nos preços mostrados na loja? </word>
   <word key="nexus_tax_explain_desc" js="0">O valor inserido aqui será mostrado ao lado dos preços e pode ser usado para explicar se o preço inclui imposto ou não. </word>
@@ -771,6 +856,13 @@ Adicione o Commerce to Invision Community para obter recursos adicionais de prop
   <word key="c_products_desc" js="0">O cupom só poderá ser usado se o membro estiver comprando um dos produtos especificados. </word>
   <word key="easypost_phone" js="0">Seu Número de Telefone</word>
   <word key="easypost_phone_desc" js="0">Algumas transportadoras exigem seu número de telefone, caso precisem entrar em contato com você sobre uma remessa.</word>
+  <word key="account_server" js="0">Servidor </word>
+  <word key="account_server_warning" js="0">Você deve mover a conta para o novo servidor manualmente antes de alterar esta configuração. </word>
+  <word key="account_username" js="0">Nome do Usuário </word>
+  <word key="account_password" js="0">Senha </word>
+  <word key="account_domain" js="0">Domínio </word>
+  <word key="account_diskspace_use" js="0">Uso do espaço em disco </word>
+  <word key="account_edit_warning" js="0">Campos marcados %s foram modificados e serão atualizados no servidor. Se você já atualizou o servidor e não deseja enviar uma solicitação ao servidor para atualizar com esses valores, marque esta caixa: </word>
   <word key="advertisement_image_max_wh" js="0">A imagem deve ser menor que %s×%spx. Imagens maiores serão redimensionadas.</word>
   <word key="advertisement_image_max_w" js="0">A imagem deve ter A imagem deve ter menos de %spx de largura. Imagens maiores serão redimensionadas.</word>
   <word key="advertisement_image_max_h" js="0">A imagem deve ter menos de %spx de altura. Imagens maiores serão redimensionadas. </word>
